@@ -84,12 +84,12 @@ namespace Gala
 
 		Gee.LinkedList<ModalProxy> modal_stack = new Gee.LinkedList<ModalProxy> ();
 
-		Gee.HashSet<Meta.WindowActor> minimizing = new Gee.HashSet<Meta.WindowActor> ();
-		Gee.HashSet<Meta.WindowActor> maximizing = new Gee.HashSet<Meta.WindowActor> ();
-		Gee.HashSet<Meta.WindowActor> unmaximizing = new Gee.HashSet<Meta.WindowActor> ();
-		Gee.HashSet<Meta.WindowActor> mapping = new Gee.HashSet<Meta.WindowActor> ();
-		Gee.HashSet<Meta.WindowActor> destroying = new Gee.HashSet<Meta.WindowActor> ();
-		Gee.HashSet<Meta.WindowActor> unminimizing = new Gee.HashSet<Meta.WindowActor> ();
+		Gee.HashMap<Meta.WindowActor,ulong> minimizing = new Gee.HashMap<Meta.WindowActor,ulong> ();
+		Gee.HashMap<Meta.WindowActor,ulong> maximizing = new Gee.HashMap<Meta.WindowActor,ulong> ();
+		Gee.HashMap<Meta.WindowActor,ulong> unmaximizing = new Gee.HashMap<Meta.WindowActor,ulong> ();
+		Gee.HashMap<Meta.WindowActor,ulong> mapping = new Gee.HashMap<Meta.WindowActor,ulong> ();
+		Gee.HashMap<Meta.WindowActor,ulong> destroying = new Gee.HashMap<Meta.WindowActor,ulong> ();
+		Gee.HashMap<Meta.WindowActor,ulong> unminimizing = new Gee.HashMap<Meta.WindowActor,ulong> ();
 		GLib.HashTable<Meta.Window, int> ws_assoc = new GLib.HashTable<Meta.Window, int> (direct_hash, direct_equal);
 
 		public WindowManagerGala ()
@@ -792,7 +792,6 @@ namespace Gala
 			}
 
 			kill_window_effects (actor);
-			minimizing.add (actor);
 
 			int width, height;
 			get_screen ().get_size (out width, out height);
@@ -812,17 +811,6 @@ namespace Gala
 				actor.set_scale (scale_x, scale_y);
 				actor.opacity = 0U;
 				actor.restore_easing_state ();
-
-				ulong minimize_handler_id = 0UL;
-				minimize_handler_id = actor.transitions_completed.connect (() => {
-					actor.disconnect (minimize_handler_id);
-					actor.set_pivot_point (0.0f, 0.0f);
-					actor.set_scale (1.0f, 1.0f);
-					actor.opacity = 255U;
-					minimize_completed (actor);
-					minimizing.remove (actor);
-				});
-
 			} else {
 				actor.set_pivot_point (0.5f, 1.0f);
 
@@ -832,17 +820,14 @@ namespace Gala
 				actor.set_scale (0.0f, 0.0f);
 				actor.opacity = 0U;
 				actor.restore_easing_state ();
-
-				ulong minimize_handler_id = 0UL;
-				minimize_handler_id = actor.transitions_completed.connect (() => {
-					actor.disconnect (minimize_handler_id);
-					actor.set_pivot_point (0.0f, 0.0f);
-					actor.set_scale (1.0f, 1.0f);
-					actor.opacity = 255U;
-					minimize_completed (actor);
-					minimizing.remove (actor);
-				});
 			}
+
+			ulong minimize_handler_id = actor.transitions_completed.connect ((actor) => {
+				unowned WindowActor window_actor = (WindowActor) actor;
+				actor_map_unset_disconnect (minimizing, window_actor);
+				minimize_completed (window_actor);
+			});
+			minimizing.set (actor, minimize_handler_id);
 		}
 
 		void maximize (WindowActor actor, int ex, int ey, int ew, int eh)
@@ -871,8 +856,6 @@ namespace Gala
 					size_change_completed (actor);
 					return;
 				}
-
-				maximizing.add (actor);
 
 				old_actor.set_position (old_inner_rect.x, old_inner_rect.y);
 
@@ -932,12 +915,12 @@ namespace Gala
 				actor.set_translation (0.0f, 0.0f, 0.0f);
 				actor.restore_easing_state ();
 
-				ulong maximize_handler_id = 0UL;
-				maximize_handler_id = actor.transitions_completed.connect (() => {
-					actor.disconnect (maximize_handler_id);
-					maximizing.remove (actor);
-					size_change_completed (actor);
+				ulong maximize_handler_id = actor.transitions_completed.connect ((actor) => {
+					unowned WindowActor window_actor = (WindowActor) actor;
+					actor_map_unset_disconnect (maximizing, window_actor);
+					size_change_completed (window_actor);
 				});
+				maximizing.set (actor, maximize_handler_id);
 			} else {
 				size_change_completed (actor);
 			}
@@ -966,8 +949,6 @@ namespace Gala
 						return;
 					}
 
-					unminimizing.add (actor);
-
 					actor.set_pivot_point (0.5f, 1.0f);
 					actor.set_scale (0.01f, 0.1f);
 					actor.opacity = 0U;
@@ -979,12 +960,12 @@ namespace Gala
 					actor.opacity = 255U;
 					actor.restore_easing_state ();
 
-					ulong unminimize_handler_id = 0UL;
-					unminimize_handler_id = actor.transitions_completed.connect (() => {
-						actor.disconnect (unminimize_handler_id);
-						unminimizing.remove (actor);
-						unminimize_completed (actor);
+					ulong unminimize_handler_id = actor.transitions_completed.connect ((actor) => {
+						unowned WindowActor window_actor = (WindowActor) actor;
+						actor_map_unset_disconnect (unminimizing, window_actor);
+						unminimize_completed (window_actor);
 					});
+					unminimizing.set (actor, unminimize_handler_id);
 
 					break;
 				default:
@@ -1016,8 +997,6 @@ namespace Gala
 						return;
 					}
 
-					mapping.add (actor);
-
 					if (window.maximized_vertically || window.maximized_horizontally) {
 						var outer_rect = window.get_frame_rect ();
 						actor.set_position (outer_rect.x, outer_rect.y);
@@ -1034,12 +1013,13 @@ namespace Gala
 					actor.opacity = 255U;
 					actor.restore_easing_state ();
 
-					ulong map_handler_id = 0UL;
-					map_handler_id = actor.transitions_completed.connect (() => {
-						actor.disconnect (map_handler_id);
-						mapping.remove (actor);
-						map_completed (actor);
+					ulong map_handler_id = actor.transitions_completed.connect ((actor) => {
+						unowned WindowActor window_actor = (WindowActor) actor;
+						actor_map_unset_disconnect (mapping, window_actor);
+						map_completed (window_actor);
 					});
+					mapping.set (actor, map_handler_id);
+
 					break;
 				case WindowType.MENU:
 				case WindowType.DROPDOWN_MENU:
@@ -1049,8 +1029,6 @@ namespace Gala
 						map_completed (actor);
 						return;
 					}
-
-					mapping.add (actor);
 
 					actor.set_pivot_point (0.5f, 0.5f);
 					actor.set_pivot_point_z (0.2f);
@@ -1064,18 +1042,16 @@ namespace Gala
 					actor.opacity = 255U;
 					actor.restore_easing_state ();
 
-					ulong map_handler_id = 0UL;
-					map_handler_id = actor.transitions_completed.connect (() => {
-						actor.disconnect (map_handler_id);
-						mapping.remove (actor);
-						map_completed (actor);
+					ulong map_handler_id = actor.transitions_completed.connect ((actor) => {
+						unowned WindowActor window_actor = (WindowActor) actor;
+						actor_map_unset_disconnect (mapping, window_actor);
+						map_completed (window_actor);
 					});
+					mapping.set (actor, map_handler_id);
+
 					break;
 				case WindowType.MODAL_DIALOG:
 				case WindowType.DIALOG:
-
-					mapping.add (actor);
-
 					actor.set_pivot_point (0.5f, 0.5f);
 					actor.set_scale (0.9f, 0.9f);
 					actor.opacity = 0;
@@ -1087,12 +1063,12 @@ namespace Gala
 					actor.opacity = 255U;
 					actor.restore_easing_state ();
 
-					ulong map_handler_id = 0UL;
-					map_handler_id = actor.transitions_completed.connect (() => {
-						actor.disconnect (map_handler_id);
-						mapping.remove (actor);
-						map_completed (actor);
+					ulong map_handler_id = actor.transitions_completed.connect ((actor) => {
+						unowned WindowActor window_actor = (WindowActor) actor;
+						actor_map_unset_disconnect (mapping, window_actor);
+						map_completed (window_actor);
 					});
+					mapping.set (actor, map_handler_id);
 
 					if (AppearanceSettings.get_default ().dim_parents &&
 						window.window_type == WindowType.MODAL_DIALOG &&
@@ -1133,8 +1109,6 @@ namespace Gala
 						return;
 					}
 
-					destroying.add (actor);
-
 					actor.set_pivot_point (0.5f, 0.5f);
 					actor.show ();
 
@@ -1145,18 +1119,17 @@ namespace Gala
 					actor.opacity = 0U;
 					actor.restore_easing_state ();
 
-					ulong destroy_handler_id = 0UL;
-					destroy_handler_id = actor.transitions_completed.connect (() => {
-						actor.disconnect (destroy_handler_id);
-						destroying.remove (actor);
-						destroy_completed (actor);
+					ulong destroy_handler_id = actor.transitions_completed.connect ((actor) => {
+						unowned WindowActor window_actor = (WindowActor) actor;
+						actor_map_unset_disconnect (destroying, window_actor);
+						destroy_completed (window_actor);
 						Utils.request_clean_icon_cache (get_all_xids ());
 					});
+					destroying.set (actor, destroy_handler_id);
+
 					break;
 				case WindowType.MODAL_DIALOG:
 				case WindowType.DIALOG:
-					destroying.add (actor);
-
 					actor.set_pivot_point (0.5f, 0.5f);
 					actor.save_easing_state ();
 					actor.set_easing_mode (Clutter.AnimationMode.EASE_OUT_QUAD);
@@ -1165,12 +1138,12 @@ namespace Gala
 					actor.opacity = 0U;
 					actor.restore_easing_state ();
 
-					ulong destroy_handler_id = 0UL;
-					destroy_handler_id = actor.transitions_completed.connect (() => {
-						actor.disconnect (destroy_handler_id);
-						destroying.remove (actor);
-						destroy_completed (actor);
+					ulong destroy_handler_id = actor.transitions_completed.connect ((actor) => {
+						unowned WindowActor window_actor = (WindowActor) actor;
+						actor_map_unset_disconnect (destroying, window_actor);
+						destroy_completed (window_actor);
 					});
+					destroying.set (actor, destroy_handler_id);
 
 					dim_window (window.find_root_ancestor (), false);
 
@@ -1184,7 +1157,6 @@ namespace Gala
 						return;
 					}
 
-					destroying.add (actor);
 					actor.save_easing_state ();
 					actor.set_easing_mode (Clutter.AnimationMode.EASE_OUT_QUAD);
 					actor.set_easing_duration (duration);
@@ -1192,12 +1164,13 @@ namespace Gala
 					actor.opacity = 0U;
 					actor.restore_easing_state ();
 
-					ulong destroy_handler_id = 0UL;
-					destroy_handler_id = actor.transitions_completed.connect (() => {
-						actor.disconnect (destroy_handler_id);
-						destroying.remove (actor);
-						destroy_completed (actor);
+					ulong destroy_handler_id = actor.transitions_completed.connect ((actor) => {
+						unowned WindowActor window_actor = (WindowActor) actor;
+						actor_map_unset_disconnect (destroying, window_actor);
+						destroy_completed (window_actor);
 					});
+					destroying.set (actor, destroy_handler_id);
+
 					break;
 				default:
 					destroy_completed (actor);
@@ -1244,8 +1217,6 @@ namespace Gala
 					return;
 				}
 
-				unmaximizing.add (actor);
-
 				old_actor.set_position (old_rect.x, old_rect.y);
 
 				ui_group.add_child (old_actor);
@@ -1281,25 +1252,25 @@ namespace Gala
 				actor.set_translation (0.0f, 0.0f, 0.0f);
 				actor.restore_easing_state ();
 
-				ulong unmaximize_handler_id = 0UL;
-				unmaximize_handler_id = actor.transitions_completed.connect (() => {
-					actor.disconnect (unmaximize_handler_id);
-					unmaximizing.remove (actor);
-					size_change_completed (actor);
+				ulong unmaximize_handler_id = actor.transitions_completed.connect ((actor) => {
+					unowned WindowActor window_actor = (WindowActor) actor;
+					actor_map_unset_disconnect (unmaximizing, window_actor);
+					size_change_completed (window_actor);
 				});
+				unmaximizing.set (actor, unmaximize_handler_id);
 			} else {
 				size_change_completed (actor);
 			}
 		}
 
 		// Cancel attached animation of an actor and reset it
-		bool end_animation (ref Gee.HashSet<Meta.WindowActor> list, WindowActor actor)
+		bool end_animation (Gee.HashMap<Meta.WindowActor,ulong> map, WindowActor actor)
 		{
-			if (!list.contains (actor))
+			if (!map.has_key (actor))
 				return false;
 
 			if (actor.is_destroyed ()) {
-				list.remove (actor);
+				map.unset (actor);
 				return false;
 			}
 
@@ -1308,24 +1279,31 @@ namespace Gala
 			actor.set_scale (1.0f, 1.0f);
 			actor.rotation_angle_x = 0.0f;
 			actor.set_pivot_point (0.0f, 0.0f);
+			actor_map_unset_disconnect (map, actor);
 
-			list.remove (actor);
 			return true;
+		}
+
+		inline static void actor_map_unset_disconnect (Gee.HashMap<Meta.WindowActor,ulong> map, WindowActor actor)
+		{
+			ulong handler_id = 0UL;
+			map.unset (actor, out handler_id);
+			actor.disconnect (handler_id);
 		}
 
 		public override void kill_window_effects (WindowActor actor)
 		{
-			if (end_animation (ref mapping, actor))
+			if (end_animation (mapping, actor))
 				map_completed (actor);
-			if (end_animation (ref unminimizing, actor))
+			if (end_animation (unminimizing, actor))
 				unminimize_completed (actor);
-			if (end_animation (ref minimizing, actor))
+			if (end_animation (minimizing, actor))
 				minimize_completed (actor);
-			if (end_animation (ref maximizing, actor))
+			if (end_animation (maximizing, actor))
 				size_change_completed (actor);
-			if (end_animation (ref unmaximizing, actor))
+			if (end_animation (unmaximizing, actor))
 				size_change_completed (actor);
-			if (end_animation (ref destroying, actor))
+			if (end_animation (destroying, actor))
 				destroy_completed (actor);
 		}
 
