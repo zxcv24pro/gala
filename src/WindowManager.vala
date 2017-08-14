@@ -774,10 +774,9 @@ namespace Gala
 				case Meta.SizeChange.FULLSCREEN:
 				case Meta.SizeChange.UNFULLSCREEN:
 					handle_fullscreen_window (actor.get_meta_window (), which_change);
+					size_change_completed (actor);
 					break;
 			}
-
-			size_change_completed (actor);
 		}
 
 		public override void minimize (WindowActor actor)
@@ -853,6 +852,7 @@ namespace Gala
 
 			if (!animation_settings.enable_animations
 				|| duration == 0) {
+				size_change_completed (actor);
 				return;
 			}
 
@@ -868,10 +868,12 @@ namespace Gala
 
 				var old_actor = Utils.get_window_actor_snapshot (actor, old_inner_rect, old_outer_rect);
 				if (old_actor == null) {
+					size_change_completed (actor);
 					return;
 				}
 
 				maximizing.add (actor);
+
 				old_actor.set_position (old_inner_rect.x, old_inner_rect.y);
 
 				ui_group.add_child (old_actor);
@@ -928,11 +930,14 @@ namespace Gala
 				actor.set_translation (0.0f, 0.0f, 0.0f);
 				actor.restore_easing_state ();
 
-				ulong handler_id = 0UL;
-				handler_id = actor.transitions_completed.connect (() => {
-					actor.disconnect (handler_id);
+				ulong maximize_handler_id = 0UL;
+				maximize_handler_id = actor.transitions_completed.connect (() => {
+					actor.disconnect (maximize_handler_id);
 					maximizing.remove (actor);
+					size_change_completed (actor);
 				});
+			} else {
+				size_change_completed (actor);
 			}
 		}
 
@@ -1205,10 +1210,12 @@ namespace Gala
 
 			if (!animation_settings.enable_animations
 				|| duration == 0) {
+				size_change_completed (actor);
 				return;
 			}
 
 			kill_window_effects (actor);
+
 			var window = actor.get_meta_window ();
 
 			if (window.window_type == WindowType.NORMAL) {
@@ -1231,6 +1238,7 @@ namespace Gala
 				var old_actor = Utils.get_window_actor_snapshot (actor, old_rect, old_rect);
 
 				if (old_actor == null) {
+					size_change_completed (actor);
 					return;
 				}
 
@@ -1271,11 +1279,14 @@ namespace Gala
 				actor.set_translation (0.0f, 0.0f, 0.0f);
 				actor.restore_easing_state ();
 
-				ulong handler_id = 0UL;
-				handler_id = actor.transitions_completed.connect (() => {
-					actor.disconnect (handler_id);
+				ulong unmaximize_handler_id = 0UL;
+				unmaximize_handler_id = actor.transitions_completed.connect (() => {
+					actor.disconnect (unmaximize_handler_id);
 					unmaximizing.remove (actor);
+					size_change_completed (actor);
 				});
+			} else {
+				size_change_completed (actor);
 			}
 		}
 
@@ -1308,11 +1319,12 @@ namespace Gala
 				unminimize_completed (actor);
 			if (end_animation (ref minimizing, actor))
 				minimize_completed (actor);
+			if (end_animation (ref maximizing, actor))
+				size_change_completed (actor);
+			if (end_animation (ref unmaximizing, actor))
+				size_change_completed (actor);
 			if (end_animation (ref destroying, actor))
 				destroy_completed (actor);
-
-			end_animation (ref unmaximizing, actor);
-			end_animation (ref maximizing, actor);
 		}
 
 		/*workspace switcher*/
@@ -1555,6 +1567,7 @@ namespace Gala
 				if (window == null || window.is_destroyed ())
 					continue;
 
+				// Remove pending/running animations to avoid visual corruptions
 				kill_window_effects (window);
 
 				var meta_window = window.get_meta_window ();
