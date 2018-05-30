@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-05-08 00:10+0000\n"
+"PO-Revision-Date: 2018-05-31 00:02+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål "
 "<https://weblate.elementary.io/projects/desktop/gala/nb/>\n"
@@ -83,7 +83,7 @@ msgstr "Vis alle åpne vinduer og arbeidsområder"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
-msgstr ""
+msgstr "Fleroppgaveløsning-visning"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
@@ -95,7 +95,7 @@ msgstr "Tilbakefallsskrivebordsfil for varsler fra utdaterte programmer"
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
-msgstr ""
+msgstr "programmer-annet"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:21
 msgid "Action for the top left corner"
@@ -311,7 +311,7 @@ msgstr "Varighet for animasjon ved bytte av arbeidsområde"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:199
 msgid "Duration of the menu mapping animation"
-msgstr ""
+msgstr "Varighet for menytildelingsanimasjonen"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:206
 msgid "Defines the shadow of normal focused windows"
