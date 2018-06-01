@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-05-31 00:02+0000\n"
+"PO-Revision-Date: 2018-06-02 00:04+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål "
 "<https://weblate.elementary.io/projects/desktop/gala/nb/>\n"
@@ -122,10 +122,13 @@ msgid "Action for the bottom right corner"
 msgstr "Handling for hjørnet nede til høyre"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:46
+#, fuzzy
 msgid ""
 "The command that will be executed for the hotcorner action 'custom-command' "
 "or multiple"
-msgstr "H"
+msgstr ""
+"Kommandoen som kjøres for handlingen for aktive hjørner 'custom-command' "
+"eller flere"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
 msgid ""
@@ -136,6 +139,13 @@ msgid ""
 "topright; bottomleft; bottomright]' followed by a ':' and then the command. "
 "';;' is used as delimiter between command defintions."
 msgstr ""
+"Hvis du skriver inn kun én kommando, vil den bli brukt for hvert aktive "
+"hjørne tildelt 'custom-command'. Hvis du isteden bruker mønsteret 'hotcorner-"
+"topleft:command;;hotcorner-bottomright:command' vil den spesifikke "
+"kommandoen bli brukt per aktive hjørne. Mulige identifikatorer er "
+"'hotcorner-[topleft; topright; bottomleft; bottomright]' fulgt av et ':', "
+"etterfulgt av kommandoen. ';;' brukes som skilletegn mellom "
+"kommandodefinisjoner."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:56
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -182,7 +192,7 @@ msgid ""
 "When launching the window-switcher, gala iterates over this list and "
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
-msgstr ""
+msgstr "Når du kjører vindusbytteren, vil gala"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:89
 msgid "Shortcut to move to first workspace"
@@ -244,7 +254,7 @@ msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
 "the parent window."
-msgstr ""
+msgstr "Når sant, istedenfor å ha uavhengige tittelfelt,"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:154
 msgid "Arrangement of buttons on the titlebar"
@@ -270,12 +280,14 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:159
 msgid "Make parent windows that spawn a modal attached dialog being dimmed"
-msgstr ""
+msgstr "Dimmer foreldrevindu som lager undervinduer"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:164
 msgid ""
 "The opacity of the windows located in the background in the alt-tab-switcher."
 msgstr ""
+"Ugjennomsiktigheten for vindu som befinner seg i bakgrunnen i alt+tab-"
+"bytteren."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:168
 msgid "Background-image used in the workspace-switcher"
@@ -295,7 +307,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:183
 msgid "Duration of the snap animation as used by maximize/unmaximize"
-msgstr ""
+msgstr "Varigheten på festeanimasjoner brukt av maksimering/avmaksimering"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:187
 msgid "Duration of the close animation"
@@ -323,7 +335,7 @@ msgid ""
 "top fade (which is usually just -1), the third and fourth the x- and y-"
 "offset and the last the opacity. So [blur-radius, top-fade, x-offset, y-"
 "offset, opacity]"
-msgstr ""
+msgstr "Den første verdien i radiusen av"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:211
 msgid "Defines the shadow of a normal unfocused window"
@@ -381,6 +393,8 @@ msgid ""
 "If enabled, when an application is fullscreen (fills the monitor), the "
 "corner masks will be disabled on that monitor."
 msgstr ""
+"Hvis påskrudd, når et program er i fullskjermsvisning, vil hjørnemaskene "
+"skrus av på den skjermen."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:271
 msgid "Only show corner masks on primary monitor"
