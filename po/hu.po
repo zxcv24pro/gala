@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2015-08-25 17:05+0000\n"
-"Last-Translator: Breznyik Péter <pbreznyik@gmail.com>\n"
-"Language-Team: Hungarian <hu@li.org>\n"
+"PO-Revision-Date: 2018-06-04 00:08+0000\n"
+"Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
+"Language-Team: Hungarian "
+"<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-21 05:47+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
-"Language: hu\n"
 
 #: src/WindowManager.vala:1636
 msgid "Does the display look OK?"
@@ -85,7 +87,7 @@ msgstr ""
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
-msgstr ""
+msgstr "Egyéb"
 
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
@@ -97,7 +99,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:21
 msgid "Action for the top left corner"
-msgstr ""
+msgstr "Művelet a bal felső sarokban"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:26
 msgid "Algorithm for window overview layout"
@@ -109,15 +111,15 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:31
 msgid "Action for the top right corner"
-msgstr ""
+msgstr "Művelet a jobb felső sarokban"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:36
 msgid "Action for the bottom left corner"
-msgstr ""
+msgstr "Művelet a bal alsó sarokban"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:41
 msgid "Action for the bottom right corner"
-msgstr ""
+msgstr "Művelet a jobb alsó sarokban"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:46
 msgid ""
@@ -134,6 +136,12 @@ msgid ""
 "topright; bottomleft; bottomright]' followed by a ':' and then the command. "
 "';;' is used as delimiter between command defintions."
 msgstr ""
+"Ha csak egy egyszerű parancsot ad meg, akkor ez a parancs fog lefutni minden "
+"'egyedi-parancs' beállítás esetén. Ha az egyes forrósarkokban különböző "
+"parancsot szeretne futtatni, a következő formátumot használja: 'hotcorner-"
+"topleft:parancs;;hotcorner-bottomright:parancs'. Lehetséges azonosítók: "
+"'hotcorner-[topleft; topright; bottomleft; bottomright]', majd egy ':' és "
+"utána a parancs. A ';;' határolójelként funkcionál."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:56
 msgid "Enable edge tiling when dropping windows on screen edges"
