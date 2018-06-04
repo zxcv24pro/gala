@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-02 00:04+0000\n"
+"PO-Revision-Date: 2018-06-06 00:08+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål "
 "<https://weblate.elementary.io/projects/desktop/gala/nb/>\n"
@@ -91,7 +91,7 @@ msgstr "Annet"
 
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
-msgstr "Tilbakefallsskrivebordsfil for varsler fra utdaterte programmer"
+msgstr "Tilbakefallsskrivebordsfil for varsler fra utdaterte programmer."
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
