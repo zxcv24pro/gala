@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-05 14:32+0000\n"
-"Last-Translator: Csepi Árpád <banderaszkormos@gmail.com>\n"
+"PO-Revision-Date: 2018-06-05 16:15+0000\n"
+"Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
 "Language: hu\n"
@@ -241,11 +241,11 @@ msgstr "Léptetés a következő billentyűzetkiosztásra"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:137
 #: data/org.pantheon.desktop.gala.gschema.xml.in:142
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr "ELAVULT: Ez a kulcs elavult és figyelmen kívül hagyható."
+msgstr "ELAVULT: Ez a billentyű elavult és mellőzve van."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:141
 msgid "Cycle to previous keyboard layout"
-msgstr ""
+msgstr "Léptetés az előző billentyűzetkiosztásra"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:149
 msgid "Attach modal dialogs"
@@ -260,7 +260,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:154
 msgid "Arrangement of buttons on the titlebar"
-msgstr ""
+msgstr "A címsoron lévő gombok elrendezése"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid ""
