@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-05 17:29+0000\n"
-"Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
+"PO-Revision-Date: 2018-06-05 17:30+0000\n"
+"Last-Translator: Csepi Árpád <banderaszkormos@gmail.com>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
 "Language: hu\n"
@@ -305,11 +305,11 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:187
 msgid "Duration of the close animation"
-msgstr ""
+msgstr "A bezárási animáció időtartama"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:191
 msgid "Duration of the minimize animation"
-msgstr ""
+msgstr "A kicsinyítési animáció időtartama"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:195
 msgid "Duration of the workspace switch animation"
