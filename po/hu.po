@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
 "PO-Revision-Date: 2018-06-05 17:33+0000\n"
-"Last-Translator: Csepi Árpád <banderaszkormos@gmail.com>\n"
+"Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
 "Language: hu\n"
@@ -344,7 +344,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:216
 msgid "Defines the shadow of a menu"
-msgstr "A menü árnyékának meghatározása"
+msgstr "Meghatározza a menü árnyékát"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:221
 msgid "Defines the shadow of a focused dialog"
