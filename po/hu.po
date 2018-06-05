@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-05 14:24+0000\n"
+"PO-Revision-Date: 2018-06-05 14:27+0000\n"
 "Last-Translator: Csepi Árpád <banderaszkormos@gmail.com>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
@@ -211,18 +211,19 @@ msgstr ""
 #: data/org.pantheon.desktop.gala.gschema.xml.in:104
 msgid "Shortcut to move the current window to last workspace"
 msgstr ""
+"Gyorsbillentyű az aktuális ablak utolsó munkaterületre történő áthelyezéséhez"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:109
 msgid "Zoom in"
-msgstr ""
+msgstr "Nagyítás"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:114
 msgid "Zoom out"
-msgstr ""
+msgstr "Kicsinyítés"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:118
 msgid "Shortcut to open the window overview"
-msgstr ""
+msgstr "Gyorsbillentyű az ablakok áttekintésének megnyitásához"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:123
 msgid "Shortcut to open the window overview for all windows"
