@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
 "PO-Revision-Date: 2018-06-05 17:35+0000\n"
-"Last-Translator: Csepi Árpád <banderaszkormos@gmail.com>\n"
+"Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
 "Language: hu\n"
@@ -364,7 +364,7 @@ msgstr "Buborék értesítések engedélyezése"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:246
 msgid "Enable sounds"
-msgstr "Hangok engedélyezése"
+msgstr "Hang értesítések engedélyezése"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:250
 msgid "Show missed notifications in notification center"
