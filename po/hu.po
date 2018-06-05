@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-05 17:33+0000\n"
-"Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
+"PO-Revision-Date: 2018-06-05 17:34+0000\n"
+"Last-Translator: Csepi Árpád <banderaszkormos@gmail.com>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
 "Language: hu\n"
@@ -356,7 +356,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
 msgid "Disable all notifications"
-msgstr ""
+msgstr "Összes értesítés tiltása"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:242
 msgid "Enable bubbles"
