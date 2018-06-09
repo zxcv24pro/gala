@@ -8,19 +8,21 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2014-04-17 10:37+0000\n"
-"Last-Translator: Yasith Vidanaarachchi <yasith.vidanaarachchi@gmail.com>\n"
-"Language-Team: Sinhalese <si@li.org>\n"
+"PO-Revision-Date: 2018-06-10 00:11+0000\n"
+"Last-Translator: Gamunu Balagalla <gamunu.balagalla@gmail.com>\n"
+"Language-Team: Sinhala "
+"<https://weblate.elementary.io/projects/desktop/gala/si/>\n"
+"Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-21 05:47+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
-"Language: \n"
 
 #: src/WindowManager.vala:1636
 msgid "Does the display look OK?"
-msgstr ""
+msgstr "ප්රදර්ශනය හරිද?"
 
 #: src/WindowManager.vala:1639
 msgid "Keep This Configuration"
@@ -32,11 +34,11 @@ msgstr ""
 
 #: src/Widgets/WindowMenu.vala:56
 msgid "Minimize"
-msgstr ""
+msgstr "අවම කරන්න"
 
 #: src/Widgets/WindowMenu.vala:71
 msgid "Move"
-msgstr ""
+msgstr "ගෙනයන්න"
 
 #: src/Widgets/WindowMenu.vala:78
 msgid "Resize"
@@ -44,23 +46,23 @@ msgstr ""
 
 #: src/Widgets/WindowMenu.vala:85
 msgid "Always on Top"
-msgstr ""
+msgstr "සැමවිටම ඉහළින්"
 
 #: src/Widgets/WindowMenu.vala:94
 msgid "Always on Visible Workspace"
-msgstr ""
+msgstr "සැමවිටම දෘශ්ය කාර්ය ඉඩ මත"
 
 #: src/Widgets/WindowMenu.vala:103
 msgid "Move to Workspace Left"
-msgstr ""
+msgstr "වම් දෘශ්ය කාර්ය ඉඩට ගෙනයන්න"
 
 #: src/Widgets/WindowMenu.vala:111
 msgid "Move to Workspace Right"
-msgstr ""
+msgstr "දකුණු දෘශ්ය කාර්ය ඉඩට ගෙනයන්න"
 
 #: src/Widgets/WindowMenu.vala:119
 msgid "Close"
-msgstr ""
+msgstr "වසන්න"
 
 #: src/Widgets/WindowMenu.vala:131
 msgid "Unmaximize"
@@ -73,19 +75,19 @@ msgstr ""
 #: data/gala-multitaskingview.desktop.in:4
 #: data/gala-multitaskingview.desktop.in:6
 msgid "Multitasking View"
-msgstr ""
+msgstr "බහු කාර්ය කරන දර්ශනය"
 
 #: data/gala-multitaskingview.desktop.in:5
 msgid "View all open windows and workspaces"
-msgstr ""
+msgstr "සෑම විවෘත කවුළු සහ කාර්ය ඉඩ බලන්න"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
-msgstr ""
+msgstr "බහුකාර්ය දර්ශනය"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
-msgstr ""
+msgstr "වෙනත්"
 
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
@@ -93,15 +95,15 @@ msgstr ""
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
-msgstr ""
+msgstr "වෙනත් යෙදුම්"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:21
 msgid "Action for the top left corner"
-msgstr ""
+msgstr "ඉහළ වම් කෙළවර සඳහා ක්‍රියාව"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:26
 msgid "Algorithm for window overview layout"
-msgstr ""
+msgstr "උපරි දර්ශන කවුළු පිරිසැලසුම් සදහා ඇල්ගොරිතමය"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:27
 msgid "Choose the algorithm used for exposing the windows"
@@ -109,15 +111,15 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:31
 msgid "Action for the top right corner"
-msgstr ""
+msgstr "ඉහළ දකුණු කෙළවර සඳහා ක්‍රියාව"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:36
 msgid "Action for the bottom left corner"
-msgstr ""
+msgstr "පහළ වම් කෙළවර සඳහා ක්‍රියාව"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:41
 msgid "Action for the bottom right corner"
-msgstr ""
+msgstr "පහළ දකුණු කෙළවර සඳහා ක්‍රියාව"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:46
 msgid ""
