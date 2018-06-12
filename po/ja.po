@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-10 00:11+0000\n"
+"PO-Revision-Date: 2018-06-13 00:06+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://weblate.elementary.io/projects/desktop/gala/ja/>\n"
@@ -46,11 +46,11 @@ msgstr "サイズの変更"
 
 #: src/Widgets/WindowMenu.vala:85
 msgid "Always on Top"
-msgstr "常に手前へ表示する"
+msgstr "常に手前へ表示"
 
 #: src/Widgets/WindowMenu.vala:94
 msgid "Always on Visible Workspace"
-msgstr "すべてのワークスペースに表示する"
+msgstr "すべてのワークスペースに表示"
 
 #: src/Widgets/WindowMenu.vala:103
 msgid "Move to Workspace Left"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:56
 msgid "Enable edge tiling when dropping windows on screen edges"
-msgstr "ウィンドウを画面の端にドロップしたときに整列する"
+msgstr "ウィンドウを画面の端にドロップしたときの整列を有効にする"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:57
 msgid ""
@@ -203,11 +203,11 @@ msgstr "現在のウィンドウを最後のワークスペースに移動する
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:109
 msgid "Zoom in"
-msgstr "拡大する"
+msgstr "ズームイン"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:114
 msgid "Zoom out"
-msgstr "縮小する"
+msgstr "ズームアウト"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:118
 msgid "Shortcut to open the window overview"
@@ -224,7 +224,7 @@ msgstr "右隣のワークスペースや最初のワークスペースに切り
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:136
 msgid "Cycle to next keyboard layout"
-msgstr "次のキーボードレイアウトに変更する"
+msgstr "次のキーボードレイアウトに変更"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:137
 #: data/org.pantheon.desktop.gala.gschema.xml.in:142
@@ -233,7 +233,7 @@ msgstr "非推奨: このキーは廃止予定であるため、無視されま�
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:141
 msgid "Cycle to previous keyboard layout"
-msgstr "前のキーボードレイアウトに変更する"
+msgstr "前のキーボードレイアウトに変更"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:149
 msgid "Attach modal dialogs"
@@ -360,7 +360,7 @@ msgstr "サウンドを有効にする"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:250
 msgid "Show missed notifications in notification center"
-msgstr "見逃した通知を通知センターに表示する"
+msgstr "見逃した通知を通知センターに表示"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:257
 msgid "Enable rounded corner mask"
@@ -382,7 +382,7 @@ msgstr "有効にすると、アプリケーションが全画面表示のとき
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:271
 msgid "Only show corner masks on primary monitor"
-msgstr "現在のモニターのみでコーナーマスクを表示する"
+msgstr "現在のモニターのみでコーナーマスクを表示"
 
 #~ msgid "Cancel"
 #~ msgstr "キャンセル"
