@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-06 00:08+0000\n"
+"PO-Revision-Date: 2018-06-14 00:08+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
@@ -38,7 +38,7 @@ msgstr "Minimalizálás"
 
 #: src/Widgets/WindowMenu.vala:71
 msgid "Move"
-msgstr "Áthelyezés"
+msgstr "Mozgatás"
 
 #: src/Widgets/WindowMenu.vala:78
 msgid "Resize"
@@ -83,7 +83,7 @@ msgstr "Az összes nyitott ablak és munkaterület mutatása"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
-msgstr ""
+msgstr "többfeladatos-nézet"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
@@ -95,7 +95,7 @@ msgstr "Tartalék asztali fájl az elavult alkalmazásoktól érkező értesít�
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
-msgstr ""
+msgstr "alkalmazások-egyéb"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:21
 msgid "Action for the top left corner"
@@ -139,8 +139,8 @@ msgid ""
 "';;' is used as delimiter between command defintions."
 msgstr ""
 "Ha csak egy egyszerű parancsot ad meg, akkor ez a parancs fog lefutni minden "
-"'egyedi-parancs' beállítás esetén. Ha az egyes forrósarkokban különböző "
-"parancsot szeretne futtatni, a következő formátumot használja: 'hotcorner-"
+"'egyedi-parancs' beállítás esetén. Ha az egyes érzékeny sarkokban különböző "
+"parancsot szeretne futtatni, használja következő formátumot: 'hotcorner-"
 "topleft:parancs;;hotcorner-bottomright:parancs'. Lehetséges azonosítók: "
 "'hotcorner-[topleft; topright; bottomleft; bottomright]', majd egy ':' és "
 "utána a parancs. A ';;' határolójelként funkcionál."
@@ -157,9 +157,9 @@ msgid ""
 "area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
 "Ha engedélyezve van, az ablakok függőleges szélekre történő húzása, az ablak "
-"méretét függőlegesen irányban maximailzálja, vizszintes irányban pedig a "
+"méretét függőleges irányban maximailzálja, vizszintes irányban pedig a "
 "rendelkezésre álló terület felére méretezi. A képernyő felső szélére történő "
-"húzással az ablak maximalizálódik."
+"húzással az ablak teljes méretű lesz."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:61
 msgid "Panel main menu action"
@@ -186,7 +186,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:81
 msgid "Names that are recognized as dock windows for the window switcher"
-msgstr ""
+msgstr "Nevek, amelyeket dokkoló ablakként ismer fel az ablakváltó"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid ""
@@ -194,6 +194,9 @@ msgid ""
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
+"Mikor az ablakváltó elindul, a gala végignézi ezt a listát és a nevekkel "
+"egyező ablakot keres. Ha talál, elrejti az adott ablakot, de előhozza, mikor "
+"az ablakváltó bezárul."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:89
 msgid "Shortcut to move to first workspace"
@@ -232,7 +235,7 @@ msgstr "Gyorsbillentyű az ablak áttekintés megnyitásához minden ablakhoz"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:128
 #: data/org.pantheon.desktop.gala.gschema.xml.in:132
 msgid "Cycle to the next workspace to the right or to back to the first"
-msgstr ""
+msgstr "Munkaterületek végigjárása jobbról, vagy hátulról az első felé"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:136
 msgid "Cycle to next keyboard layout"
@@ -249,7 +252,7 @@ msgstr "Léptetés az előző billentyűzetkiosztásra"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:149
 msgid "Attach modal dialogs"
-msgstr ""
+msgstr "Körülményektől függő párbeszédablakok csatolása"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:150
 msgid ""
@@ -257,6 +260,9 @@ msgid ""
 "attached to the titlebar of the parent window and are moved together with "
 "the parent window."
 msgstr ""
+"Ha igaz, a független címsorok helyett, a körülményektől függő "
+"párbeszédablakok jelennek meg a szülőablak címsorához csatolva, és a "
+"szülőablakkal együtt mozognak."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:154
 msgid "Arrangement of buttons on the titlebar"
@@ -272,10 +278,18 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
+"A címsoron lévő gombok elrendezése. Ennek az értéknek egy karakterláncnak "
+"kell lennie, például \"menu:minimize,maximize,spacer,close\"; kettőspont "
+"választja el az ablak bal és jobb sarkát, a gombnevek pedig vesszővel vannak "
+"elválasztva. Kettőzött gombok nem engedélyezettek. Az ismeretlen gombnevek "
+"figyelmen kívül lesznek hagyva, így a jövőbeli metacity verziókban "
+"hozzáadhatók lesznek a gombok, anélkül, hogy a régebbi verziók elromlanának."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:159
 msgid "Make parent windows that spawn a modal attached dialog being dimmed"
 msgstr ""
+"Állítsa be a szülői ablakokat, amelyek a csatolt környezetfüggő "
+"párbeszédablakot elhalványítják"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:164
 msgid ""
