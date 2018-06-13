@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-13 13:32+0000\n"
+"PO-Revision-Date: 2018-06-14 00:08+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew "
 "<https://weblate.elementary.io/projects/desktop/gala/he/>\n"
@@ -120,9 +120,7 @@ msgstr "פעולה עבור הפינה הימנית התחתונה"
 msgid ""
 "The command that will be executed for the hotcorner action 'custom-command' "
 "or multiple"
-msgstr ""
-"The command that will be executed for the hotcorner action 'custom-command' "
-"or multiple"
+msgstr "הפקודה שתופעל עבור פעולת הפינה החמה ‚custom-command’ או מספר פקודות"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
 msgid ""
@@ -142,7 +140,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:56
 msgid "Enable edge tiling when dropping windows on screen edges"
-msgstr "Enable edge tiling when dropping windows on screen edges"
+msgstr "הפעלת ריצוף גבולות בעת השלכת חלונות על גבולות התצוגה"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:57
 msgid ""
@@ -150,35 +148,35 @@ msgid ""
 "vertically and resizes them horizontally to cover half of the available "
 "area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
-"If enabled, dropping windows on vertical screen edges maximizes them "
-"vertically and resizes them horizontally to cover half of the available "
-"area. Dropping windows on the top screen edge maximizes them completely."
+"אם אפשרות זו מופעלת, השלכת חלונות על קצוות המסך האנכיים ממזערת אותם ומשנה את "
+"גודלם כדי שיכסו מחצית מהאזור הזמין. השלכת חלונות על הקצה העליון של המסך "
+"מגדיל אותם לגמרי."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:61
 msgid "Panel main menu action"
-msgstr "Panel main menu action"
+msgstr "פעולת תפריט ראשי של חלונית"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:62
 msgid ""
 "Sets the command to run when the panel-main-menu keybinding is pressed"
 msgstr ""
-"Sets the command to run when the panel-main-menu keybinding is pressed"
+"הגדרת הפקודה להפעלה כאשר צירוף המקשים לתפריט ראשי של לוח (panel-main-menu) "
+"נלחץ"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:76
 msgid "Enable dynamic workspace instead of static ones"
-msgstr "Enable dynamic workspace instead of static ones"
+msgstr "הפעלת מרחבי עבודה דינמיים במקום קבועים"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid ""
 "Use a dynamically increasing or decreasing number, as needed, of "
 "workspaces instead of a static, fixed number"
 msgstr ""
-"Use a dynamically increasing or decreasing number, as needed, of "
-"workspaces instead of a static, fixed number"
+"שימוש במספר שקטן וגדל באופן דינמי של סביבות עבודה, כפי הנדרש, במקום מספר קבוע"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:81
 msgid "Names that are recognized as dock windows for the window switcher"
-msgstr "Names that are recognized as dock windows for the window switcher"
+msgstr "שמות שמזוהים כחלונות מעגן עבור מחליף החלונות"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid ""
@@ -186,25 +184,25 @@ msgid ""
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
-"When launching the window-switcher, gala iterates over this list and "
-"attempts to find a window matching the names. If it does, it will hide this "
-"window and fade it back in, once the the switcher is closed."
+"בעת טעינת מחליף החלונות, מנגנון gala עובר על הפריטים ברשימה הזאת ומנסה למצוא "
+"חלון עם שמות תואמים לאלה. אם הוא מוצא, הוא יסתיר את החלון ויעמעם אותו לאחר "
+"סגירת מחליף החלונות."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:89
 msgid "Shortcut to move to first workspace"
-msgstr "Shortcut to move to first workspace"
+msgstr "קיצור דרך לעבור לסביבת העבודה הראשונה"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:94
 msgid "Shortcut to move to last workspace"
-msgstr "Shortcut to move to last workspace"
+msgstr "קיצור דרך לעבור לסביבת העבודה האחרונה"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:99
 msgid "Shortcut to move the current window to first workspace"
-msgstr "Shortcut to move the current window to first workspace"
+msgstr "קיצור דרך להעביר את החלון הנוכחי לסביבת העבודה הראשונה"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:104
 msgid "Shortcut to move the current window to last workspace"
-msgstr "Shortcut to move the current window to last workspace"
+msgstr "קיצור דרך להעביר את החלון הנוכחי לסביבת העבודה האחרונה"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:109
 msgid "Zoom in"
