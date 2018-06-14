@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-14 00:08+0000\n"
+"PO-Revision-Date: 2018-06-14 07:55+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
@@ -288,13 +288,13 @@ msgstr ""
 #: data/org.pantheon.desktop.gala.gschema.xml.in:159
 msgid "Make parent windows that spawn a modal attached dialog being dimmed"
 msgstr ""
-"Állítsa be a szülői ablakokat, amelyek a csatolt környezetfüggő "
-"párbeszédablakot elhalványítják"
+"Halványítsa el a szülő ablakokat, amelyek környezetfüggő párbeszédablakot "
+"nyitnak meg"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:164
 msgid ""
 "The opacity of the windows located in the background in the alt-tab-switcher."
-msgstr ""
+msgstr "Az ablakváltóban háttérben lévő ablakok homályossága."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:168
 msgid "Background-image used in the workspace-switcher"
@@ -335,7 +335,7 @@ msgstr "Menü leképezési animáció időtartama"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:206
 msgid "Defines the shadow of normal focused windows"
-msgstr ""
+msgstr "Meghatározza a normál fókuszban lévő ablakok árnyékát"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:207
 msgid ""
@@ -344,17 +344,21 @@ msgid ""
 "offset and the last the opacity. So [blur-radius, top-fade, x-offset, y-"
 "offset, opacity]"
 msgstr ""
+"Az első érték az árnyék elmosódásának sugara, a második a felső "
+"elhalványulás (ez általában -1), a harmadik és a negyedik az x- és y-eltolás "
+"és az utolsó a homályosság. Tehát [elmosódási sugár, felső elhalványulás, x-"
+"eltolás, y-eltolás, homályosság]"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:211
 msgid "Defines the shadow of a normal unfocused window"
-msgstr ""
+msgstr "Meghatározza a nem normál fókuszban lévő ablakok árnyékát"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:212
 #: data/org.pantheon.desktop.gala.gschema.xml.in:217
 #: data/org.pantheon.desktop.gala.gschema.xml.in:222
 #: data/org.pantheon.desktop.gala.gschema.xml.in:227
 msgid "See normal-focused"
-msgstr ""
+msgstr "Mutasd a normál fókuszt"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:216
 msgid "Defines the shadow of a menu"
@@ -362,11 +366,11 @@ msgstr "Meghatározza a menü árnyékát"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:221
 msgid "Defines the shadow of a focused dialog"
-msgstr ""
+msgstr "Meghatározza a fókuszban lévő párbeszédablak árnyékát"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:226
 msgid "Defines the shadow of an unfocused dialog"
-msgstr ""
+msgstr "Meghatározza a nem fókuszban lévő párbeszédablak árnyékát"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
 msgid "Disable all notifications"
@@ -386,11 +390,11 @@ msgstr "Az elmulasztott értesítések megjelenítése az értesítési központ
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:257
 msgid "Enable rounded corner mask"
-msgstr ""
+msgstr "Kerekített sarkok engedélyezése"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:262
 msgid "Corner radius"
-msgstr ""
+msgstr "Kerekítés sugara"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:266
 msgid "Disable corner mask on fullscreen"
