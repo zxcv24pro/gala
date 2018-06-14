@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-14 08:11+0000\n"
+"PO-Revision-Date: 2018-06-15 00:10+0000\n"
 "Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
@@ -83,7 +83,7 @@ msgstr "Az összes nyitott ablak és munkaterület mutatása"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
-msgstr "többfeladatos-nézet"
+msgstr "multitasking-view"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
@@ -95,7 +95,7 @@ msgstr "Tartalék asztali fájl az elavult alkalmazásoktól érkező értesít�
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
-msgstr "alkalmazások-egyéb"
+msgstr "applications-other"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:21
 msgid "Action for the top left corner"
@@ -200,21 +200,22 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:89
 msgid "Shortcut to move to first workspace"
-msgstr "Gyorsbillentyű az első munkaterületre való áthelyezéshez"
+msgstr "Billentyűparancs az első munkaterületre való áthelyezéshez"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:94
 msgid "Shortcut to move to last workspace"
-msgstr "Gyorsbillentyű az utolsó munkaterületre való áthelyezéshez"
+msgstr "Billentyűparancs az utolsó munkaterületre való áthelyezéshez"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:99
 msgid "Shortcut to move the current window to first workspace"
 msgstr ""
-"Gyorsbillentyű az aktuális ablak első munkaterületre történő áthelyezéséhez"
+"Billentyűparancs az aktuális ablak első munkaterületre történő áthelyezéséhez"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:104
 msgid "Shortcut to move the current window to last workspace"
 msgstr ""
-"Gyorsbillentyű az aktuális ablak utolsó munkaterületre történő áthelyezéséhez"
+"Billentyűparancs az aktuális ablak utolsó munkaterületre történő "
+"áthelyezéséhez"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:109
 msgid "Zoom in"
@@ -226,11 +227,11 @@ msgstr "Kicsinyítés"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:118
 msgid "Shortcut to open the window overview"
-msgstr "Gyorsbillentyű az ablak áttekintés megnyitásához"
+msgstr "Billentyűparancs az ablak áttekintés megnyitásához"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:123
 msgid "Shortcut to open the window overview for all windows"
-msgstr "Gyorsbillentyű az ablak áttekintés megnyitásához minden ablakhoz"
+msgstr "Billentyűparancs az ablak áttekintés megnyitásához minden ablakhoz"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:128
 #: data/org.pantheon.desktop.gala.gschema.xml.in:132
