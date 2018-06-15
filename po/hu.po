@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-15 00:10+0000\n"
-"Last-Translator: Majer Tamás <mtamas@disroot.org>\n"
+"PO-Revision-Date: 2018-06-16 00:09+0000\n"
+"Last-Translator: Kardos László <lacesz@ox.io>\n"
 "Language-Team: Hungarian "
 "<https://weblate.elementary.io/projects/desktop/gala/hu/>\n"
 "Language: hu\n"
@@ -83,7 +83,7 @@ msgstr "Az összes nyitott ablak és munkaterület mutatása"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
-msgstr "multitasking-view"
+msgstr "tobbfeladatos-nezet"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
@@ -95,7 +95,7 @@ msgstr "Tartalék asztali fájl az elavult alkalmazásoktól érkező értesít�
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
-msgstr "applications-other"
+msgstr "egyeb-alkalmazasok"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:21
 msgid "Action for the top left corner"
