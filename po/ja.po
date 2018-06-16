@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-06-13 00:06+0000\n"
+"PO-Revision-Date: 2018-06-17 00:07+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock@gmail.com>\n"
 "Language-Team: Japanese "
 "<https://weblate.elementary.io/projects/desktop/gala/ja/>\n"
@@ -46,7 +46,7 @@ msgstr "サイズの変更"
 
 #: src/Widgets/WindowMenu.vala:85
 msgid "Always on Top"
-msgstr "常に手前へ表示"
+msgstr "常に手前に表示"
 
 #: src/Widgets/WindowMenu.vala:94
 msgid "Always on Visible Workspace"
