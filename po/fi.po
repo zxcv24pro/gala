@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gala\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-08-11 00:09+0000\n"
+"PO-Revision-Date: 2018-08-12 00:05+0000\n"
 "Last-Translator: Veli-Pekka Samuli Finnilä <vpf@tuta.io>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/desktop/gala/"
 "fi/>\n"
@@ -87,7 +87,7 @@ msgstr "multitasking-view"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
-msgstr "Muut"
+msgstr "Muu"
 
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
@@ -176,7 +176,7 @@ msgstr "Muuta työtilojen määrää dynaamisesti tarpeen mukaan"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:81
 msgid "Names that are recognized as dock windows for the window switcher"
-msgstr "Nimet jotka tunnistetaan ikkunanvaihtajan telakkaikkunoiksi"
+msgstr "Nimet jotka tunnistetaan ikkunanvaihtimen telakkaikkunoiksi"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid ""
@@ -184,9 +184,9 @@ msgid ""
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
-"Ikkunanvaihtajaa käynnistettäessä gala vertaa tätä listaa ikkunoiden nimiin. "
+"Ikkunanvaihdinta käynnistettäessä gala vertaa tätä listaa ikkunoiden nimiin. "
 "Jos osuma löytyy, piilotetaan kyseinen ikkuna ja tuodaan se takaisin esille "
-"vaihtajan sulkeuduttua."
+"vaihtimen sulkeuduttua."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:89
 msgid "Shortcut to move to first workspace"
@@ -248,8 +248,8 @@ msgid ""
 "attached to the titlebar of the parent window and are moved together with "
 "the parent window."
 msgstr ""
-"Kun valittuna, modaalidialogit näytetään kiinnitettyinä pääikkunaan sen "
-"sijaan että niillä olisi oma otsikkopalkkinsa"
+"Kun valittuna, modaalidialogit näytetään kiinnitettyinä pääikkunaan ja "
+"liikkuvat sen mukana sen sijaan, että niillä olisi oma otsikkopalkkinsa."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:154
 msgid "Arrangement of buttons on the titlebar"
@@ -273,7 +273,7 @@ msgstr "Himmennä pääikkunat jotka avaavat kiinnitetyn modaalidialogin"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:164
 msgid ""
 "The opacity of the windows located in the background in the alt-tab-switcher."
-msgstr "Alt-tab -vaihtajan taustalla olevien ikkunoiden läpinäkymättömyys"
+msgstr "Alt-tab-vaihtimen taustalla olevien ikkunoiden läpinäkymättömyys."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:168
 msgid "Background-image used in the workspace-switcher"
