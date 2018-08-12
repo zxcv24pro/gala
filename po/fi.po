@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gala\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-08-12 00:05+0000\n"
+"PO-Revision-Date: 2018-08-13 00:02+0000\n"
 "Last-Translator: Veli-Pekka Samuli Finnilä <vpf@tuta.io>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/desktop/gala/"
 "fi/>\n"
@@ -126,6 +126,8 @@ msgid ""
 "The command that will be executed for the hotcorner action 'custom-command' "
 "or multiple"
 msgstr ""
+"Komento joka suoritetaan yhdelle tai useammalle \"custom-command\"-hotcorner-"
+"toiminnolle"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
 msgid ""
@@ -136,6 +138,13 @@ msgid ""
 "topright; bottomleft; bottomright]' followed by a ':' and then the command. "
 "';;' is used as delimiter between command defintions."
 msgstr ""
+"Jos laitat vain yhden komennon, sitä käytetään jokaiselle hotcornerille, "
+"joka on määrätty kohteeseen \"custom-command\". Jos käytät sen sijaan kaavaa "
+"\"hotcorner-topleft:command;;hotcorner-bottomright:command\", tietyt "
+"komennot menevät tiettyihin hotcornereihin. Mahdollisia tunnisteita ovat \""
+"hotcorner-[topleft; topright; bottomleft; bottomright]\", jonka jälkeen "
+"laitetaan \":\", ja sitten vielä lopuksi komento. \";;\"-merkintää käytetään "
+"erottimena komentomääritelmille."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:56
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -232,7 +241,7 @@ msgstr "Vaihda seuraavaan näppäimistöasetteluun"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:137
 #: data/org.pantheon.desktop.gala.gschema.xml.in:142
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr ""
+msgstr "VANHENTUNUT: Tämä näppäin on vanhentunut, eikä sitä enää huomioida."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:141
 msgid "Cycle to previous keyboard layout"
@@ -265,6 +274,13 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
+"Otsikkopalkin painikkeiden sijoittelu. Arvon tulisi olla merkkijono, kuten \""
+"menu:minimize,maximize,spacer,close\"; kaksoispiste erottaa ikkunan vasemman "
+"kulman oikeasta. Painikkeiden nimet erotetaan pilkuilla. Jokaista "
+"painiketyyppiä voi olla vain yksi kappale. Tuntemattomat painikkeiden nimet "
+"jätetään hiljaa huomioimatta, jotta painikkeita voidaan lisätä tulevissa "
+"metacityn versioissa rikkomatta vanhempia versioita. Painikkeiden väliin voi "
+"lisätä tilaa erityisellä spacer-avainsanalla."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:159
 msgid "Make parent windows that spawn a modal attached dialog being dimmed"
@@ -288,6 +304,8 @@ msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
 msgstr ""
+"Tulisiko animaatioita näyttää. Huomautus: Tämä on järjestelmänlaajuinen "
+"näppäin, ja se vaikuttaa ikkunanhallintaohjelman, paneelin ym. toimintaan."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:183
 msgid "Duration of the snap animation as used by maximize/unmaximize"
@@ -374,17 +392,19 @@ msgstr "Kulman säde"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:266
 msgid "Disable corner mask on fullscreen"
-msgstr ""
+msgstr "Poista kulmamaski käytöstä kokoruututilassa"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:267
 msgid ""
 "If enabled, when an application is fullscreen (fills the monitor), the "
 "corner masks will be disabled on that monitor."
 msgstr ""
+"Jos tämä on kytketty päälle, kulmamaskit poistetaan käytöstä, kun sovellus "
+"on kokoruututilassa (täyttää näytön)."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:271
 msgid "Only show corner masks on primary monitor"
-msgstr ""
+msgstr "Näytä kulmamaskit vain päänäytössä"
 
 #~ msgid "Cancel"
 #~ msgstr "Peru"
