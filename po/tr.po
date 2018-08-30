@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2016-09-19 23:20+0000\n"
-"Last-Translator: Sadık Poyraz <sadikpoyraz01@gmail.com>\n"
-"Language-Team: Turkish <tr@li.org>\n"
+"PO-Revision-Date: 2018-08-31 00:04+0000\n"
+"Last-Translator: İbrahim Ethem Göl <ethem578@gmail.com>\n"
+"Language-Team: Turkish <https://weblate.elementary.io/projects/desktop/gala/"
+"tr/>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-21 05:47+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
-"Language: tr\n"
 
 #: src/WindowManager.vala:1636
 msgid "Does the display look OK?"
@@ -81,19 +83,20 @@ msgstr "Tüm açık pencereleri ve çalışma alanlarını göster"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
-msgstr ""
+msgstr "çoklugörev-görünüm"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
-msgstr ""
+msgstr "Diğer"
 
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
 msgstr ""
+"Güncel olmayan uygulamalardan gelen bildirimler için yedek masaüstü dosyası."
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
-msgstr ""
+msgstr "uygulamalar-diğer"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:21
 msgid "Action for the top left corner"
