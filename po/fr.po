@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: gala\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2017-10-28 10:33+0000\n"
-"Last-Translator: Thomas <thomas.nicolle25@outlook.fr>\n"
-"Language-Team: French "
-"<https://weblate.elementary.io/projects/desktop/gala/fr/>\n"
+"PO-Revision-Date: 2018-09-25 00:01+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
+"Language-Team: French <https://weblate.elementary.io/projects/desktop/gala/"
+"fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.16\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-28 05:04+0000\n"
 
 #: src/WindowManager.vala:1636
@@ -26,7 +26,7 @@ msgstr "L'affichage semble-t-il correct ?"
 
 #: src/WindowManager.vala:1639
 msgid "Keep This Configuration"
-msgstr "Garder cette configuration"
+msgstr "Conserver cette configuration"
 
 #: src/WindowManager.vala:1640
 msgid "Restore Previous Configuration"
@@ -66,7 +66,7 @@ msgstr "Fermer"
 
 #: src/Widgets/WindowMenu.vala:131
 msgid "Unmaximize"
-msgstr "Minimiser"
+msgstr "Restaurer"
 
 #: src/Widgets/WindowMenu.vala:131
 msgid "Maximize"
@@ -160,7 +160,7 @@ msgid ""
 "vertically and resizes them horizontally to cover half of the available "
 "area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
-"Si activée, déplacer les fenêtres sur les bords verticaux de l'écran "
+"Si activé, déplacer les fenêtres sur les bords verticaux de l'écran "
 "agrandira le cadre de la fenêtre et couvrira la moitié de la surface "
 "disponible horizontalement. Déplacer les fenêtres sur le bord supérieur les "
 "agrandira complètement."
@@ -198,9 +198,9 @@ msgid ""
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
-"Lors du bascul de fenêtres, gala lit cette liste et essaie de chercher "
+"Lors du basculement de fenêtres, gala lit cette liste et essaie de chercher "
 "chaque nom de fenêtre correspondant. Si cela en est le cas, la fenêtre sera "
-"cachée et reprendra le focus à la fin du bascul."
+"cachée et reprendra le focus à la fin du basculement."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:89
 msgid "Shortcut to move to first workspace"
@@ -251,7 +251,7 @@ msgstr "Basculer vers la prochaine disposition clavier"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:137
 #: data/org.pantheon.desktop.gala.gschema.xml.in:142
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr "DEPRECATED: This key is deprecated and ignored."
+msgstr "OBSOLETE : Cette clé est obsolète et ignorée."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:141
 msgid "Cycle to previous keyboard layout"
@@ -268,8 +268,8 @@ msgid ""
 "the parent window."
 msgstr ""
 "Si vrai, à la place d'avoir des barres de titre indépendantes, les boîtes de "
-"dialogue apparaisseront attachées à la barre de titre de la fenêtre parente "
-"et seront déplacées avec la fenêtre parente."
+"dialogue apparaitront attachées à la barre de titre de la fenêtre parente et "
+"seront déplacées avec la fenêtre parente."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:154
 msgid "Arrangement of buttons on the titlebar"
