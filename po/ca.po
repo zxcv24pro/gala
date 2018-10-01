@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-08-24 00:01+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2018-10-02 00:03+0000\n"
+"Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/desktop/gala/"
 "ca/>\n"
 "Language: ca\n"
@@ -101,7 +101,7 @@ msgstr "aplicacions-altres"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:21
 msgid "Action for the top left corner"
-msgstr "Acció per a la cantonada de dalt a l'esquerra"
+msgstr "Acció per al cantó de dalt a l'esquerra"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:26
 msgid "Algorithm for window overview layout"
@@ -113,7 +113,7 @@ msgstr "Trieu l'algoritme que s'ha d'usar per exposar les finestres"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:31
 msgid "Action for the top right corner"
-msgstr "Acció per a la cantonada de dalt a la dreta"
+msgstr "Acció per al cantó de dalt a la dreta"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:36
 msgid "Action for the bottom left corner"
@@ -121,14 +121,14 @@ msgstr "Acció per a la canotnada de baix a l'esquerra"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:41
 msgid "Action for the bottom right corner"
-msgstr "Acció per a la cantonada de baix a la dreta"
+msgstr "Acció per al cantó de baix a la dreta"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:46
 msgid ""
 "The command that will be executed for the hotcorner action 'custom-command' "
 "or multiple"
 msgstr ""
-"L'ordre que s'executarà per a l'acció de la cantonada activa \"ordre "
+"L'ordre que s'executarà per a l'acció del cantó actiu amb \"ordre "
 "personalitzada\" o múltiple"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
@@ -140,12 +140,12 @@ msgid ""
 "topright; bottomleft; bottomright]' followed by a ':' and then the command. "
 "';;' is used as delimiter between command defintions."
 msgstr ""
-"Si hi poseu una sola ordre, s'usarà per a cada cantonada activa assignada a "
-"\"custom-command\". Si, en canvi, feu servir el patró \"hotcorner-"
+"Si hi poseu una sola ordre, s'usarà per a cada cantó actiu assignat a \""
+"ordre personalitzada\". Si, en canvi, feu servir el patró \"hotcorner-"
 "topleft:command;;hotcorner-bottomright:command\" s'usaran les ordres "
-"específiques per a cada cantonada. Els identificadors possibles són "
-"\"hotcorner-[topleft; topright; bottomleft; bottomright]\" seguits de \":\" "
-"i després l'ordre. ';;' s'usa com a  delimitador entre definicions d'ordre."
+"específiques per a cada cantó. Els identificadors possibles són \""
+"hotcorner-[topleft; topright; bottomleft; bottomright]\" seguits de \":\" i "
+"després l'ordre. ';;' s'usa com a  delimitador entre definicions d'ordre."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:56
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -285,8 +285,8 @@ msgid ""
 msgstr ""
 "La disposició dels botons a la barra de títol. El valor ha de ser una "
 "cadena, com ara «menu:minimize,maximize,spacer,close» (menú, minimitza, "
-"maximitza, espaiat, tanca). Els dos punts separen la cantonada esquerra de "
-"la finestra de la dreta, i els noms dels botons se separen amb comes. No es "
+"maximitza, espaiat, tanca). Els dos punts separen el cantó esquerre de la "
+"finestra de la dreta, i els noms dels botons se separen amb comes. No es "
 "poden duplicar els botons. Els noms de botons desconeguts es descartaran "
 "sense cap notificació, de manera que es puguin afegir botons en futures "
 "versions del Metacity sense trencar les versions antigues. Es pot afegir una "
@@ -399,15 +399,15 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:257
 msgid "Enable rounded corner mask"
-msgstr "Habilita la màscara de cantonada arrodonida"
+msgstr "Habilita la màscara de cantó arrodonit"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:262
 msgid "Corner radius"
-msgstr "Radi de les cantonades"
+msgstr "Radi del cantó"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:266
 msgid "Disable corner mask on fullscreen"
-msgstr "Inhabilita la màscara de les cantonades en pantalla completa"
+msgstr "Inhabilita la màscara de cantó en pantalla completa"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:267
 msgid ""
@@ -419,7 +419,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:271
 msgid "Only show corner masks on primary monitor"
-msgstr "Mostra només les màscares de cantonades a la pantalla primària"
+msgstr "Mostra només les màscares de cantó a la pantalla primària"
 
 #~ msgid "Cancel"
 #~ msgstr "Cancel·la"
