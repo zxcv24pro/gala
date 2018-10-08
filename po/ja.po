@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2018-10-08 00:04+0000\n"
+"PO-Revision-Date: 2018-10-09 00:01+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/desktop/gala/"
 "ja/>\n"
@@ -79,7 +79,7 @@ msgstr "マルチタスキングビュー"
 
 #: data/gala-multitaskingview.desktop.in:5
 msgid "View all open windows and workspaces"
-msgstr "すべての開いているウィンドウとワークスペースを見ます"
+msgstr "すべての開いているウィンドウとワークスペースを参照します"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
