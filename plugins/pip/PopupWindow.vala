@@ -19,6 +19,7 @@ public class Gala.Plugins.PIP.PopupWindow : Clutter.Actor
 {
 	private int button_size;
 	private int container_margin;
+	private int wingpanel_height;
 	private const int SHADOW_SIZE = 100;
 	private const uint FADE_OUT_TIMEOUT = 200;
 	private const float MINIMUM_SCALE = 0.1f;
@@ -83,6 +84,7 @@ public class Gala.Plugins.PIP.PopupWindow : Clutter.Actor
 		var scale = Utils.get_ui_scaling_factor ();
 		button_size = 36 * scale;
 		container_margin = button_size / 2;
+		wingpanel_height = 30 * scale;
 		
 		reactive = true;
 
@@ -402,7 +404,7 @@ public class Gala.Plugins.PIP.PopupWindow : Clutter.Actor
 
 		x = x.clamp (screen_limit_start, screen_limit_end);
 
-		screen_limit_start = SCREEN_MARGIN + monitor_y;
+		screen_limit_start = SCREEN_MARGIN + wingpanel_height + monitor_y;
 		screen_limit_end = monitor_height + monitor_y - SCREEN_MARGIN - height;
 
 		y = y.clamp (screen_limit_start, screen_limit_end);
