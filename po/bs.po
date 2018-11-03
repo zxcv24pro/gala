@@ -8,14 +8,18 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-02-20 08:08+0100\n"
-"PO-Revision-Date: 2014-11-11 11:38+0000\n"
-"Last-Translator: aleksandar-todorovic <aleksandar.todorovic@mail.ru>\n"
-"Language-Team: Bosnian <bs@li.org>\n"
+"PO-Revision-Date: 2018-11-03 13:20+0000\n"
+"Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
+"Language-Team: Bosnian <https://weblate.elementary.io/projects/desktop/gala/"
+"bs/>\n"
+"Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-21 05:47+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
 
 #: src/WindowManager.vala:1636
 msgid "Does the display look OK?"
@@ -31,43 +35,43 @@ msgstr "Vrati prethodnu konfiguraciju"
 
 #: src/Widgets/WindowMenu.vala:56
 msgid "Minimize"
-msgstr ""
+msgstr "Minimiziraj"
 
 #: src/Widgets/WindowMenu.vala:71
 msgid "Move"
-msgstr ""
+msgstr "Pomjeri"
 
 #: src/Widgets/WindowMenu.vala:78
 msgid "Resize"
-msgstr ""
+msgstr "Promijeni veličinu"
 
 #: src/Widgets/WindowMenu.vala:85
 msgid "Always on Top"
-msgstr ""
+msgstr "Uvijek na vrhu"
 
 #: src/Widgets/WindowMenu.vala:94
 msgid "Always on Visible Workspace"
-msgstr ""
+msgstr "Uvijek na vidljivoj radnoj površini"
 
 #: src/Widgets/WindowMenu.vala:103
 msgid "Move to Workspace Left"
-msgstr ""
+msgstr "Pomjeri na lijevu radnu površinu"
 
 #: src/Widgets/WindowMenu.vala:111
 msgid "Move to Workspace Right"
-msgstr ""
+msgstr "Pomjeri na desnu radnu površinu"
 
 #: src/Widgets/WindowMenu.vala:119
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: src/Widgets/WindowMenu.vala:131
 msgid "Unmaximize"
-msgstr ""
+msgstr "Poništi uvećanje"
 
 #: src/Widgets/WindowMenu.vala:131
 msgid "Maximize"
-msgstr ""
+msgstr "Uvećaj"
 
 #: data/gala-multitaskingview.desktop.in:4
 #: data/gala-multitaskingview.desktop.in:6
@@ -80,19 +84,20 @@ msgstr "Pregledajte sve otvorene prozore i radne površine"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
-msgstr ""
+msgstr "multitasking-view"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
-msgstr ""
+msgstr "Ostalo"
 
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
 msgstr ""
+"Pričuvna datoteka radne površine za obavijesti iz zastarjelih aplikacija."
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
-msgstr ""
+msgstr "applications-other"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:21
 msgid "Action for the top left corner"
@@ -179,8 +184,8 @@ msgid ""
 "Use a dynamically increasing or decreasing number, as needed, of "
 "workspaces instead of a static, fixed number"
 msgstr ""
-"Korišćenje dinamičke opcije povećava ili smanjuje broj radnih površina, dok "
-"se statička opcija drži zadanog broja radnih površina."
+"Koristite dinamički rastući ili opadajući broj radnih površina umjesto "
+"statičkog, fiksnog broja"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:81
 msgid "Names that are recognized as dock windows for the window switcher"
@@ -222,11 +227,11 @@ msgstr "Smanji"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:118
 msgid "Shortcut to open the window overview"
-msgstr ""
+msgstr "Prečica za otvaranje pregleda prozora"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:123
 msgid "Shortcut to open the window overview for all windows"
-msgstr ""
+msgstr "Prečica za otvaranje pregleda prozora za sve prozore"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:128
 #: data/org.pantheon.desktop.gala.gschema.xml.in:132
@@ -235,16 +240,16 @@ msgstr "Pređite na sledjeću radnu površinu ili se vratite na prvu"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:136
 msgid "Cycle to next keyboard layout"
-msgstr ""
+msgstr "Prebaci na sljedeći raspored tastature"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:137
 #: data/org.pantheon.desktop.gala.gschema.xml.in:142
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr ""
+msgstr "ZASTARJELO: Ova tipka je zastarjela i bit će ignorirana."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:141
 msgid "Cycle to previous keyboard layout"
-msgstr ""
+msgstr "Prebaci na prethodni raspored tastature"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:149
 msgid "Attach modal dialogs"
@@ -285,16 +290,16 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:159
 msgid "Make parent windows that spawn a modal attached dialog being dimmed"
-msgstr ""
+msgstr "Nadređeni prozori sa priloženim modalnim dijalogom će biti zatamnjeni"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:164
 msgid ""
 "The opacity of the windows located in the background in the alt-tab-switcher."
-msgstr ""
+msgstr "Prozirnost prozora u pozadini sklopke alt-tab."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:168
 msgid "Background-image used in the workspace-switcher"
-msgstr ""
+msgstr "Pozadinska slika koja se koristi u sklopki radnih prostora"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Enable Animations"
@@ -310,7 +315,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:183
 msgid "Duration of the snap animation as used by maximize/unmaximize"
-msgstr ""
+msgstr "Trajanje animacije prilikom uvećanja/poništenja uvećanja"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:187
 msgid "Duration of the close animation"
@@ -326,11 +331,11 @@ msgstr "Trajanje animacije za mijenjanje između radnih površina"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:199
 msgid "Duration of the menu mapping animation"
-msgstr ""
+msgstr "Trajanje animacije za mapiranje izbornika"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:206
 msgid "Defines the shadow of normal focused windows"
-msgstr ""
+msgstr "Određuje sjenku normalnih prozora u fokusu"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:207
 msgid ""
@@ -339,21 +344,24 @@ msgid ""
 "offset and the last the opacity. So [blur-radius, top-fade, x-offset, y-"
 "offset, opacity]"
 msgstr ""
+"Prva vrijednost je radijus zamagljenja sjenke, druga je gornje iščezavanje ("
+"fade, koji je obično samo -1), treća i četvrta su x i y pomak a posljednja "
+"je prozirnost. Dakle, [blur-radius, top-fade, x-offset, y-offset, opacity]"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:211
 msgid "Defines the shadow of a normal unfocused window"
-msgstr ""
+msgstr "Određuje sjenku normalnih prozora u fokusu"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:212
 #: data/org.pantheon.desktop.gala.gschema.xml.in:217
 #: data/org.pantheon.desktop.gala.gschema.xml.in:222
 #: data/org.pantheon.desktop.gala.gschema.xml.in:227
 msgid "See normal-focused"
-msgstr ""
+msgstr "Vidi normal-focused"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:216
 msgid "Defines the shadow of a menu"
-msgstr ""
+msgstr "Određuje sjenku izbornika"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:221
 msgid "Defines the shadow of a focused dialog"
@@ -365,38 +373,40 @@ msgstr "Definiše sjenu dijaloga koji nije u fokusu"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
 msgid "Disable all notifications"
-msgstr ""
+msgstr "Deaktiviraj sve obavijesti"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:242
 msgid "Enable bubbles"
-msgstr ""
+msgstr "Aktiviraj balončiće"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:246
 msgid "Enable sounds"
-msgstr ""
+msgstr "Aktiviraj zvukove"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:250
 msgid "Show missed notifications in notification center"
-msgstr ""
+msgstr "Prikaži propuštene obavijesti u centru za obavijesti"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:257
 msgid "Enable rounded corner mask"
-msgstr ""
+msgstr "Aktiviraj zaobljenu masku uglova"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:262
 msgid "Corner radius"
-msgstr ""
+msgstr "Opseg uglova"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:266
 msgid "Disable corner mask on fullscreen"
-msgstr ""
+msgstr "Deaktiviraj masku uglova u prikazu punog ekrana"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:267
 msgid ""
 "If enabled, when an application is fullscreen (fills the monitor), the "
 "corner masks will be disabled on that monitor."
 msgstr ""
+"Kada se ovo aktivira, maske uglova će biti deaktivirane na monitoru na kojem "
+"aplikacija prikazuje u punom ekranu (ispuni cijeli monitor)."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:271
 msgid "Only show corner masks on primary monitor"
-msgstr ""
+msgstr "Maske uglova prikaži samo na glavnom monitoru"
