@@ -68,6 +68,7 @@ add_project_arguments([
 		'--pkg', 'config',
 		'--pkg', 'cogl-fixes',
 		'--pkg', 'compat',
+		'--pkg', 'xkb',
 	],
 	language: 'vala',
 )

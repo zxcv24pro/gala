@@ -21,6 +21,8 @@ namespace Gala
 	{
 		static KeyboardManager? instance;
 		static VariantType sources_variant_type;
+		static unowned X.Display xdisplay;
+		static List<unowned X.Xkb.Desc> keymaps;
 
 		public static void init (Meta.Display display)
 		{
@@ -30,6 +32,7 @@ namespace Gala
 			instance = new KeyboardManager ();
 
 			display.modifiers_accelerator_activated.connect (instance.handle_modifiers_accelerator_activated);
+			xdisplay = display.get_xdisplay ();
 		}
 
 		static construct
@@ -75,39 +78,112 @@ namespace Gala
 			return true;
 		}
 
+		// TODO: Add options argument
+		void compile_keymaps (string layouts[])
+		{
+			string layout = "us", variant = "";
+
+			keymaps = new List<unowned X.Xkb.Desc> ();
+			foreach (unowned string curr in layouts) {
+				string[] arr = curr.split ("+", 2);
+				layout = arr[0];
+				variant = arr[1] ?? "";
+
+				// TODO: Get ComponentNames from RMLVO configuration.
+				X.Xkb.ComponentNames names = new X.Xkb.ComponentNames ();
+				names.keymap = null;
+				names.keycodes = "evdev+aliases(qwerty)";
+				names.types = "complete";
+				names.compat = "complete";
+				string symbols = "pc+%s+inet(evdev)+group(alt_shift_toggle)".printf (curr);
+				names.symbols = symbols;
+				names.geometry = "pc(pc105)";
+
+				unowned X.Xkb.Desc desc =
+				X.Xkb.get_keyboard_by_name (xdisplay,
+											X.Xkb.UseCoreKbd,
+											names,
+											X.Xkb.GBN.AllComponentsMask,
+											X.Xkb.GBN.AllComponentsMask,
+											false);
+				keymaps.append (desc);
+			}
+		}
+
+		void set_keymap (uint idx)
+		{
+			X.Xkb.set_map (xdisplay, X.Xkb.GBN.AllComponentsMask, keymaps.nth_data(idx));
+		}
+
 		[CCode (instance_pos = -1)]
 		void set_keyboard_layout (GLib.Settings settings, string key)
 		{
-			if (!(key == "current" || key == "source" || key == "xkb-options"))
+			if (!(key == "current" || key == "sources" || key == "xkb-options"))
 				return;
-
-			string layout = "us", variant = "", options = "";
 
 			var sources = settings.get_value ("sources");
 			if (!sources.is_of_type (sources_variant_type))
 				return;
 
 			var current = settings.get_uint ("current");
-			unowned string? type = null, name = null;
-			if (sources.n_children () > current)
-				sources.get_child (current, "(&s&s)", out type, out name);
-			if (type == "xkb") {
-				string[] arr = name.split ("+", 2);
-				layout = arr[0];
-				variant = arr[1] ?? "";
-			}
 
+			string options = "";
 			var xkb_options = settings.get_strv ("xkb-options");
 			if (xkb_options.length > 0)
 				options = string.joinv (",", xkb_options);
 
-			// Needed to make common keybindings work on non-latin layouts
-			if (layout != "us" || variant != "") {
-				layout = layout + ",us";
-				variant = variant + ",";
-			}
+			if (xdisplay != null) {
+				// When Gala is working in X11, keymaps are precompiled and
+				// cached in the keymaps list.
+				// This is done because compilation is done inside X11 and
+				// takes a long time at least for some layouts like 'br' or
+				// 'ru'. This seems to be related to Scroll_Lock modifiers.
+				// See issue #220.
+				if (key == "sources" || key == "xkb-options" || keymaps.length() == 0) {
+					// Precompilation is executed anytime the "sources" or
+					// "xkb-options" keys change.
 
-			Meta.Backend.get_backend ().set_keymap (layout, variant, options);
+					string[] keymaps = {};
+					unowned string? type = null, name = null;
+					for (int idx=0; idx < sources.n_children (); idx++) {
+						sources.get_child (idx, "(&s&s)", out type, out name);
+						if (type == "xkb") {
+							keymaps += name;
+						} else {
+							keymaps += "us";
+						}
+					}
+
+					if (sources.n_children () == 0) {
+						keymaps += "us";
+					}
+
+					compile_keymaps (keymaps);
+				}
+
+				set_keymap (current);
+
+			} else {
+				string layout = "us", variant = "";
+
+				if (current < sources.n_children()) {
+					unowned string? type = null, name = null;
+					sources.get_child (current, "(&s&s)", out type, out name);
+					string[] arr = name.split ("+", 2);
+					if (type == "xkb") {
+						layout = arr[0];
+						variant = arr[1] ?? "";
+					}
+				}
+
+				// Needed to make common keybindings work on non-latin layouts
+				if (layout != "us" || variant != "") {
+					layout = layout + ",us";
+					variant = variant + ",";
+				}
+
+				Meta.Backend.get_backend ().set_keymap (layout, variant, options);
+			}
 		}
 	}
 }
