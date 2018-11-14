@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-03-11 00:05+0000\n"
+"PO-Revision-Date: 2018-11-15 00:08+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/desktop/"
 "gala/lt/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
-"X-Generator: Weblate 2.18\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:08+0000\n"
 
 #: src/WindowManager.vala:1839
@@ -108,9 +108,8 @@ msgid "Algorithm for window overview layout"
 msgstr "Langų apžvalgos išdėstymo algoritmas"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
-#, fuzzy
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Pasirinkti algoritmą, skirtą langų parodymui"
+msgstr "Pasirinkti algoritmą, skirtą langų parodymui."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
@@ -125,16 +124,14 @@ msgid "Action for the bottom right corner"
 msgstr "Apatinio dešiniojo kampo veiksmas"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
-#, fuzzy
 msgid ""
 "The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
 msgstr ""
-"Komanda ar kelios komandos, kurios bus vykdomos karštojo kampo veiksmui "
-"\"tinkinta komanda\" (angl. custom-command)"
+"Komanda ar kelios komandos, kurios bus vykdomos karštojo kampo veiksmui \""
+"tinkinta komanda\" (angl. custom-command)"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
-#, fuzzy
 msgid ""
 "If you just put a single command, it will be used for every hot corner "
 "assigned to 'custom-command'. If you instead use the pattern 'hotcorner-"
@@ -145,8 +142,8 @@ msgid ""
 msgstr ""
 "Jeigu nurodysite vieną komandą, ji bus naudojama kiekvienam karštajam "
 "kampui, kuriam priskirta tinkinta komanda (angl. custom-command). Jeigu "
-"vietoj to naudosite šabloną 'hotcorner-topleft:command;;hotcorner-"
-"bottomright:command', tuomet kiekvienam kampui bus naudojama tam tikra "
+"vietoj to naudosite šabloną 'hotcorner-topleft:komanda;;hotcorner-"
+"bottomright:komanda', tuomet kiekvienam kampui bus naudojama tam tikra "
 "komanda. Galimi identifikatoriai yra 'hotcorner-[topleft; topright; "
 "bottomleft; bottomright]' po kurių seka \":\", o tuomet komanda. ';;' yra "
 "naudojamas kaip skirtukas tarp komandų apibrėžimų."
@@ -171,24 +168,22 @@ msgid "Panel main menu action"
 msgstr "Skydelio pagrindinio meniu veiksmas"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:63
-#, fuzzy
 msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
 msgstr ""
 "Nustato komandą, kurią vykdyti, kai nuspaudžiamas skydelio pagrindinio meniu "
-"klavišų susiejimas"
+"klavišų susiejimas."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
 msgstr "Vietoj statinių darbo sričių, įjungti dinamines darbo sritis"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:78
-#, fuzzy
 msgid ""
 "Use a dynamically increasing or decreasing number, as needed, of workspaces "
 "instead of a static, fixed number."
 msgstr ""
-"Vietoj statinio pastovaus darbo sričių skaičiaus, pagal poreikį naudoti "
-"dinamiškai didėjantį ar mažėjantį skaičių"
+"Vietoj statinio, pastovaus darbo sričių skaičiaus, pagal poreikį naudoti "
+"dinamiškai didėjantį ar mažėjantį skaičių."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid "Names that are recognized as dock windows for the window switcher"
@@ -196,13 +191,12 @@ msgstr ""
 "Pavadinimai, kurie langų perjungiklyje yra atpažįstami kaip skydelio langai"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:83
-#, fuzzy
 msgid ""
 "When launching the window-switcher, Gala iterates over this list and "
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
-"Paleidžiant langų perjungiklį, gala pereina per šį sąrašą ir bando rasti "
+"Paleidžiant langų perjungiklį, Gala pereina per šį sąrašą ir bando rasti "
 "langus, kurie atitiktų pavadinimus. Juos radusi, ji juos paslepia, o užvėrus "
 "perjungiklį, vėl juos parodo."
 
