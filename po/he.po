@@ -1,12 +1,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-20 08:08+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
+"POT-Creation-Date: 2018-11-14 17:57+0100\n"
 "PO-Revision-Date: 2018-06-18 00:04+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew "
-"<https://weblate.elementary.io/projects/desktop/gala/he/>\n"
+"Language-Team: Hebrew <https://weblate.elementary.io/projects/desktop/gala/"
+"he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,55 +15,55 @@ msgstr ""
 "X-Generator: Weblate 2.18\n"
 "X-Launchpad-Export-Date: 2017-02-21 05:47+0000\n"
 
-#: src/WindowManager.vala:1636
+#: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
 msgstr "האם התצוגה נראית בסדר?"
 
-#: src/WindowManager.vala:1639
+#: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
 msgstr "שמירת תצורה זו"
 
-#: src/WindowManager.vala:1640
+#: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
 msgstr "שחזור תצורה קודמת"
 
-#: src/Widgets/WindowMenu.vala:56
+#: daemon/MenuDaemon.vala:102
 msgid "Minimize"
 msgstr "מזעור"
 
-#: src/Widgets/WindowMenu.vala:71
+#: daemon/MenuDaemon.vala:114
 msgid "Move"
 msgstr "הזזה"
 
-#: src/Widgets/WindowMenu.vala:78
+#: daemon/MenuDaemon.vala:120
 msgid "Resize"
 msgstr "שינוי גודל"
 
-#: src/Widgets/WindowMenu.vala:85
+#: daemon/MenuDaemon.vala:126
 msgid "Always on Top"
 msgstr "תמיד עליון"
 
-#: src/Widgets/WindowMenu.vala:94
+#: daemon/MenuDaemon.vala:132
 msgid "Always on Visible Workspace"
 msgstr "תמיד בסביבת העבודה הגלויה"
 
-#: src/Widgets/WindowMenu.vala:103
+#: daemon/MenuDaemon.vala:138
 msgid "Move to Workspace Left"
 msgstr "העברה לסביבת העבודה משמאל"
 
-#: src/Widgets/WindowMenu.vala:111
+#: daemon/MenuDaemon.vala:144
 msgid "Move to Workspace Right"
 msgstr "העברה לסביבת העבודה מימין"
 
-#: src/Widgets/WindowMenu.vala:119
+#: daemon/MenuDaemon.vala:150
 msgid "Close"
 msgstr "סגירה"
 
-#: src/Widgets/WindowMenu.vala:131
+#: daemon/MenuDaemon.vala:167
 msgid "Unmaximize"
 msgstr "שחזור גודל"
 
-#: src/Widgets/WindowMenu.vala:131
+#: daemon/MenuDaemon.vala:167
 msgid "Maximize"
 msgstr "הגדלה"
 
@@ -92,39 +92,42 @@ msgstr "קובץ שולחן עבודה כמנגנון גיבוי להודעות 
 msgid "applications-other"
 msgstr "applications-other"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:21
+#: data/org.pantheon.desktop.gala.gschema.xml.in:22
 msgid "Action for the top left corner"
 msgstr "פעולה עבור הפינה השמאלית העליונה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:26
+#: data/org.pantheon.desktop.gala.gschema.xml.in:27
 msgid "Algorithm for window overview layout"
 msgstr "אלגוריתם עבור פריסת סקירת החלונות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:27
-msgid "Choose the algorithm used for exposing the windows"
+#: data/org.pantheon.desktop.gala.gschema.xml.in:28
+#, fuzzy
+msgid "Choose the algorithm used for exposing the windows."
 msgstr "בחירת אלגוריתם לשימוש עבור חשיפתם של החלונות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:31
+#: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
 msgstr "פעולה עבור הפינה הימנית העליונה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:36
+#: data/org.pantheon.desktop.gala.gschema.xml.in:37
 msgid "Action for the bottom left corner"
 msgstr "פעולה עבור הפינה השמאלית התחתונה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:41
+#: data/org.pantheon.desktop.gala.gschema.xml.in:42
 msgid "Action for the bottom right corner"
 msgstr "פעולה עבור הפינה הימנית התחתונה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:46
+#: data/org.pantheon.desktop.gala.gschema.xml.in:47
+#, fuzzy
 msgid ""
-"The command that will be executed for the hotcorner action 'custom-command' "
+"The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
 msgstr "הפקודה שתופעל עבור פעולת הפינה החמה ‚custom-command’ או מספר פקודות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:47
+#: data/org.pantheon.desktop.gala.gschema.xml.in:48
+#, fuzzy
 msgid ""
-"If you just put a single command, it will be used for every hotcorner "
+"If you just put a single command, it will be used for every hot corner "
 "assigned to 'custom-command'. If you instead use the pattern 'hotcorner-"
 "topleft:command;;hotcorner-bottomright:command' the specific commands will "
 "be used per hotcorner. Possible identifiers are 'hotcorner-[topleft; "
@@ -137,11 +140,11 @@ msgstr ""
 "האפשריים הם ‚hotcorner-[topleft; topright; bottomleft; bottomright]’ ולאחר "
 "מכן ‚:’ ואז הפקודה. ניתן להשתמש ב־‚;;’ כדי להפריד בין פקודות."
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:56
+#: data/org.pantheon.desktop.gala.gschema.xml.in:57
 msgid "Enable edge tiling when dropping windows on screen edges"
 msgstr "הפעלת ריצוף גבולות בעת השלכת חלונות על גבולות התצוגה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:57
+#: data/org.pantheon.desktop.gala.gschema.xml.in:58
 msgid ""
 "If enabled, dropping windows on vertical screen edges maximizes them "
 "vertically and resizes them horizontally to cover half of the available "
@@ -151,35 +154,37 @@ msgstr ""
 "גודלם כדי שיכסו מחצית מהאזור הזמין. השלכת חלונות על הקצה העליון של המסך "
 "מגדיל אותם לגמרי."
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:61
+#: data/org.pantheon.desktop.gala.gschema.xml.in:62
 msgid "Panel main menu action"
 msgstr "פעולת תפריט ראשי של חלונית"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:62
-msgid ""
-"Sets the command to run when the panel-main-menu keybinding is pressed"
+#: data/org.pantheon.desktop.gala.gschema.xml.in:63
+#, fuzzy
+msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
 msgstr ""
 "הגדרת הפקודה להפעלה כאשר צירוף המקשים לתפריט ראשי של לוח (panel-main-menu) "
 "נלחץ"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:76
+#: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
 msgstr "הפעלת מרחבי עבודה דינמיים במקום קבועים"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:77
+#: data/org.pantheon.desktop.gala.gschema.xml.in:78
+#, fuzzy
 msgid ""
-"Use a dynamically increasing or decreasing number, as needed, of "
-"workspaces instead of a static, fixed number"
+"Use a dynamically increasing or decreasing number, as needed, of workspaces "
+"instead of a static, fixed number."
 msgstr ""
 "שימוש במספר שקטן וגדל באופן דינמי של סביבות עבודה, כפי הנדרש, במקום מספר קבוע"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:81
+#: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid "Names that are recognized as dock windows for the window switcher"
 msgstr "שמות שמזוהים כחלונות מעגן עבור מחליף החלונות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:82
+#: data/org.pantheon.desktop.gala.gschema.xml.in:83
+#, fuzzy
 msgid ""
-"When launching the window-switcher, gala iterates over this list and "
+"When launching the window-switcher, Gala iterates over this list and "
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
@@ -187,61 +192,70 @@ msgstr ""
 "חלון עם שמות תואמים לאלה. אם הוא מוצא, הוא יסתיר את החלון ויעמעם אותו לאחר "
 "סגירת מחליף החלונות."
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:89
+#: data/org.pantheon.desktop.gala.gschema.xml.in:90
 msgid "Shortcut to move to first workspace"
 msgstr "קיצור דרך לעבור לסביבת העבודה הראשונה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:94
+#: data/org.pantheon.desktop.gala.gschema.xml.in:95
 msgid "Shortcut to move to last workspace"
 msgstr "קיצור דרך לעבור לסביבת העבודה האחרונה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:99
+#: data/org.pantheon.desktop.gala.gschema.xml.in:100
 msgid "Shortcut to move the current window to first workspace"
 msgstr "קיצור דרך להעביר את החלון הנוכחי לסביבת העבודה הראשונה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:104
+#: data/org.pantheon.desktop.gala.gschema.xml.in:105
 msgid "Shortcut to move the current window to last workspace"
 msgstr "קיצור דרך להעביר את החלון הנוכחי לסביבת העבודה האחרונה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:109
+#: data/org.pantheon.desktop.gala.gschema.xml.in:110
 msgid "Zoom in"
 msgstr "התקרבות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:114
+#: data/org.pantheon.desktop.gala.gschema.xml.in:115
 msgid "Zoom out"
 msgstr "התרחקות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:118
+#: data/org.pantheon.desktop.gala.gschema.xml.in:119
 msgid "Shortcut to open the window overview"
 msgstr "קיצור דרך לפתיחת סקירת חלונות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:123
+#: data/org.pantheon.desktop.gala.gschema.xml.in:124
 msgid "Shortcut to open the window overview for all windows"
 msgstr "קיצור דרך לפתיחת סקירת כל החלונות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:128
-#: data/org.pantheon.desktop.gala.gschema.xml.in:132
+#: data/org.pantheon.desktop.gala.gschema.xml.in:129
+#: data/org.pantheon.desktop.gala.gschema.xml.in:133
 msgid "Cycle to the next workspace to the right or to back to the first"
 msgstr "דפדוף לסביבת העבודה הבאה מימין או חזרה לראשונה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:136
+#: data/org.pantheon.desktop.gala.gschema.xml.in:137
 msgid "Cycle to next keyboard layout"
 msgstr "דפדוף אל פריסת המקלדת הבאה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:137
-#: data/org.pantheon.desktop.gala.gschema.xml.in:142
+#: data/org.pantheon.desktop.gala.gschema.xml.in:138
+#: data/org.pantheon.desktop.gala.gschema.xml.in:143
+#: data/org.pantheon.desktop.gala.gschema.xml.in:171
 msgid "DEPRECATED: This key is deprecated and ignored."
 msgstr "השימוש הופסק: השימוש במפתח זה הופסק ואינו בשימוש עוד."
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:141
+#: data/org.pantheon.desktop.gala.gschema.xml.in:142
 msgid "Cycle to previous keyboard layout"
 msgstr "דפדוף אל פריסת המקלדת הקודמת"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:149
+#: data/org.pantheon.desktop.gala.gschema.xml.in:147
+msgid "The shortcut to enable picture-in-picture window"
+msgstr ""
+
+#: data/org.pantheon.desktop.gala.gschema.xml.in:148
+msgid "The shortcut to show the selection area to choose a window."
+msgstr ""
+
+#: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid "Attach modal dialogs"
 msgstr "הצמדת תיבות דו־שיח רכות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:150
+#: data/org.pantheon.desktop.gala.gschema.xml.in:156
 msgid ""
 "When true, instead of having independent titlebars, modal dialogs appear "
 "attached to the titlebar of the parent window and are moved together with "
@@ -250,11 +264,11 @@ msgstr ""
 "כשמוגדר לאמת, במקום סרגלי כותרת עצמאיים, יוצמדו תיבות דו־שיח בלתי מטרידות "
 "לשורת הכותרת של חלון ההורה והן תזוזנה יחד עם חלון ההורה."
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:154
+#: data/org.pantheon.desktop.gala.gschema.xml.in:160
 msgid "Arrangement of buttons on the titlebar"
 msgstr "סידור הכפתורים בשורת הכותרת"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:155
+#: data/org.pantheon.desktop.gala.gschema.xml.in:161
 msgid ""
 "Arrangement of buttons on the titlebar. The value should be a string, such "
 "as \"menu:minimize,maximize,spacer,close\"; the colon separates the left "
@@ -264,31 +278,32 @@ msgid ""
 "without breaking older versions. A special spacer tag can be used to insert "
 "some space between two adjacent buttons."
 msgstr ""
-"סידור הכפתורים בשורת הכותרת. הערך אמור להיות מחרוזת כגון: "
-"„menu:minimize,maximize,spacer,close”, הנקודתיים מפרידים את הפינה הימנית של "
-"החלון מהפינה השמאלית ושמות הכפתורים מופרדים בפסיקים. אסור כפתורים כפולים. "
-"שמות כפתורים בלתי ידועים זוכים להתעלמות ללא שום הודעה כדי שתהיה אפשרות "
-"להוסיף כפתורים בגרסאות עתידיות של metacity מבלי לשבש גרסאות ישנות. ניתן "
-"להשתמש בתגית ריווח מיוחדת כדי להוסיף רווח בין שני כפתורים צמודים."
+"סידור הכפתורים בשורת הכותרת. הערך אמור להיות מחרוזת כגון: „menu:minimize,"
+"maximize,spacer,close”, הנקודתיים מפרידים את הפינה הימנית של החלון מהפינה "
+"השמאלית ושמות הכפתורים מופרדים בפסיקים. אסור כפתורים כפולים. שמות כפתורים "
+"בלתי ידועים זוכים להתעלמות ללא שום הודעה כדי שתהיה אפשרות להוסיף כפתורים "
+"בגרסאות עתידיות של metacity מבלי לשבש גרסאות ישנות. ניתן להשתמש בתגית ריווח "
+"מיוחדת כדי להוסיף רווח בין שני כפתורים צמודים."
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:159
-msgid "Make parent windows that spawn a modal attached dialog being dimmed"
+#: data/org.pantheon.desktop.gala.gschema.xml.in:165
+#, fuzzy
+msgid "Dims parent windows when spawning modal dialogs"
 msgstr "להפוך חלונות הורה שהקפיצו חלונית בלתי טורדנית מוצמדת למעומעמים"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:164
-msgid ""
-"The opacity of the windows located in the background in the alt-tab-switcher."
+#: data/org.pantheon.desktop.gala.gschema.xml.in:170
+#, fuzzy
+msgid "The opacity of windows behind the window switcher."
 msgstr "שקיפות החלונות שממוקמים ברקע במחליף ה־alt-tab."
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:168
+#: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Background-image used in the workspace-switcher"
 msgstr "תמונת רקע בה נעשה שימוש במחליף סביבות העבודה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:175
+#: data/org.pantheon.desktop.gala.gschema.xml.in:182
 msgid "Enable Animations"
 msgstr "הפעלת הנפשות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:176
+#: data/org.pantheon.desktop.gala.gschema.xml.in:183
 msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
@@ -296,93 +311,95 @@ msgstr ""
 "האם להציג הנפשות. לתשומת לבך: מדובר במקש גלובלי, הוא משנה את התנהגות מנהל "
 "החלונות, הלוח וכן הלאה."
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:183
+#: data/org.pantheon.desktop.gala.gschema.xml.in:190
 msgid "Duration of the snap animation as used by maximize/unmaximize"
 msgstr "משך הנפשת ההצמדה בה נעשה שימוש להגדלה/ביטול הגדלה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:187
+#: data/org.pantheon.desktop.gala.gschema.xml.in:194
 msgid "Duration of the close animation"
 msgstr "משך הנפשת הסגירה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:191
+#: data/org.pantheon.desktop.gala.gschema.xml.in:198
 msgid "Duration of the minimize animation"
 msgstr "משך הנפשת המזעור"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:195
+#: data/org.pantheon.desktop.gala.gschema.xml.in:202
 msgid "Duration of the workspace switch animation"
 msgstr "משך הנפשת החלפת סביבת עבודה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:199
+#: data/org.pantheon.desktop.gala.gschema.xml.in:206
 msgid "Duration of the menu mapping animation"
 msgstr "משך הנפשת מיפוי תפריט"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:206
+#: data/org.pantheon.desktop.gala.gschema.xml.in:213
 msgid "Defines the shadow of normal focused windows"
 msgstr "הגדרת הצללה של חלונות ממוקדים רגילים"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:207
+#: data/org.pantheon.desktop.gala.gschema.xml.in:214
+#, fuzzy
 msgid ""
 "The first value is the radius of the blur of the shadow, the second one the "
 "top fade (which is usually just -1), the third and fourth the x- and y-"
 "offset and the last the opacity. So [blur-radius, top-fade, x-offset, y-"
-"offset, opacity]"
+"offset, opacity]."
 msgstr ""
-"הערך הראשון הוא הרדיוס של טשטוש הצל, השני הוא של העמעום העליון (בדרך כלל "
-"פשוט ‎-1), השני והשלישי הם ההיסט בצירים x ו־y בהתאמה והאחרון זאת שקיפות. "
-"לפיכך [רדיוס טשטוש, עמעום מלמעלה, היסט x, היסט y, אטימות]"
+"הערך הראשון הוא הרדיוס של טשטוש הצל, השני הוא של העמעום העליון (בדרך כלל פשוט"
+" ‎-1), השני והשלישי הם ההיסט בצירים x ו־y בהתאמה והאחרון זאת שקיפות. לפיכך "
+"[רדיוס טשטוש, עמעום מלמעלה, היסט x, היסט y, אטימות]"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:211
+#: data/org.pantheon.desktop.gala.gschema.xml.in:218
 msgid "Defines the shadow of a normal unfocused window"
 msgstr "הגדרת ההצללה של חלון רגיל שאינו במיקוד"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:212
-#: data/org.pantheon.desktop.gala.gschema.xml.in:217
-#: data/org.pantheon.desktop.gala.gschema.xml.in:222
-#: data/org.pantheon.desktop.gala.gschema.xml.in:227
-msgid "See normal-focused"
+#: data/org.pantheon.desktop.gala.gschema.xml.in:219
+#: data/org.pantheon.desktop.gala.gschema.xml.in:224
+#: data/org.pantheon.desktop.gala.gschema.xml.in:229
+#: data/org.pantheon.desktop.gala.gschema.xml.in:234
+#, fuzzy
+msgid "See normal-focused."
 msgstr "הצגת רגיל במיקוד"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:216
+#: data/org.pantheon.desktop.gala.gschema.xml.in:223
 msgid "Defines the shadow of a menu"
 msgstr "הגדרת הצללה של תפריט"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:221
+#: data/org.pantheon.desktop.gala.gschema.xml.in:228
 msgid "Defines the shadow of a focused dialog"
 msgstr "הגדרת הצללה של חלונית במיקוד"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:226
+#: data/org.pantheon.desktop.gala.gschema.xml.in:233
 msgid "Defines the shadow of an unfocused dialog"
 msgstr "הגדרת הצללה של חלונית שאינה במיקוד"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:234
+#: data/org.pantheon.desktop.gala.gschema.xml.in:241
 msgid "Disable all notifications"
 msgstr "השבתת כל ההודעות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:242
+#: data/org.pantheon.desktop.gala.gschema.xml.in:249
 msgid "Enable bubbles"
 msgstr "הפעלת בועות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:246
+#: data/org.pantheon.desktop.gala.gschema.xml.in:253
 msgid "Enable sounds"
 msgstr "הפעלת צלילים"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:250
+#: data/org.pantheon.desktop.gala.gschema.xml.in:257
 msgid "Show missed notifications in notification center"
 msgstr "הצגת הודעות שהוחמצו במרכז ההודעות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:257
+#: data/org.pantheon.desktop.gala.gschema.xml.in:264
 msgid "Enable rounded corner mask"
 msgstr "הפעלת מסיכת פינות מעוגלות"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:262
+#: data/org.pantheon.desktop.gala.gschema.xml.in:269
 msgid "Corner radius"
 msgstr "רדיוס פינה"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:266
+#: data/org.pantheon.desktop.gala.gschema.xml.in:273
 msgid "Disable corner mask on fullscreen"
 msgstr "השבתת מיסוך פינות במסך מלא"
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:267
+#: data/org.pantheon.desktop.gala.gschema.xml.in:274
 msgid ""
 "If enabled, when an application is fullscreen (fills the monitor), the "
 "corner masks will be disabled on that monitor."
@@ -390,7 +407,7 @@ msgstr ""
 "אם האפשרות פעילה, כאשר יישום נמצא במצב מסך מלא (על כל המסך), מסיכות הפינות "
 "יושבתו באותו הצג."
 
-#: data/org.pantheon.desktop.gala.gschema.xml.in:271
+#: data/org.pantheon.desktop.gala.gschema.xml.in:278
 msgid "Only show corner masks on primary monitor"
 msgstr "הצגת מסיכות הפינות בצג הראשי בלבד"
 
