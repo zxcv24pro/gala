@@ -69,6 +69,9 @@ namespace Gala
 			if (Prefs.get_dynamic_workspaces ()
 				&& Utils.get_n_windows (screen.get_workspace_by_index (screen.get_n_workspaces () - 1)) > 0)
 				append_workspace ();
+
+			// There are some empty workspace at startup
+			cleanup ();
 		}
 
 		~WorkspaceManager ()
@@ -135,7 +138,7 @@ namespace Gala
 
 		void window_removed (Workspace? workspace, Window window)
 		{
-			if (workspace == null || !Prefs.get_dynamic_workspaces ())
+			if (workspace == null || !Prefs.get_dynamic_workspaces () || window.on_all_workspaces)
 				return;
 
 			unowned Screen screen = workspace.get_screen ();
@@ -224,7 +227,7 @@ namespace Gala
 
 			workspace.window_added.disconnect (window_added);
 			workspace.window_removed.disconnect (window_removed);
-			
+
 			workspaces_marked_removed.add (workspace);
 
 			screen.remove_workspace (workspace, time);

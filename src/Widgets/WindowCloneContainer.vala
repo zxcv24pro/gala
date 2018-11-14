@@ -63,7 +63,7 @@ namespace Gala
 			unowned Meta.Display display = window.get_display ();
 			var children = get_children ();
 			
-			GLib.SList<unowned Meta.Window> windows = new GLib.SList<unowned Meta.Window> ();
+			GLib.SList<Meta.Window> windows = new GLib.SList<Meta.Window> ();
 			foreach (unowned Actor child in children) {
 				unowned WindowClone tw = (WindowClone) child;
 				windows.prepend (tw.window);
@@ -149,7 +149,7 @@ namespace Gala
 			unowned Meta.Display display = screen.get_display ();
 			var children = get_children ();
 
-			GLib.SList<unowned Meta.Window> windows = new GLib.SList<unowned Meta.Window> ();
+			GLib.SList<Meta.Window> windows = new GLib.SList<Meta.Window> ();
 			foreach (unowned Actor child in children) {
 				unowned WindowClone tw = (WindowClone) child;
 				windows.prepend (tw.window);
@@ -333,7 +333,10 @@ namespace Gala
 						break;
 					}
 				}
-				current_window.active = false;
+
+				if (current_window != null) {
+					current_window.active = false;
+				}
 			} else {
 				current_window = null;
 			}

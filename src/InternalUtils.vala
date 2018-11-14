@@ -147,7 +147,7 @@ namespace Gala
 
 			new_window.change_workspace_by_index (index, false);
 
-			unowned List<WindowActor> actors = Compositor.get_window_actors (new_window.get_screen ());
+			unowned List<unowned WindowActor> actors = Compositor.get_window_actors (new_window.get_screen ());
 			foreach (unowned Meta.WindowActor actor in actors) {
 				if (actor.is_destroyed ())
 					continue;
@@ -242,7 +242,7 @@ namespace Gala
 			// Assign each window to the closest available slot
 			var tmplist = windows.copy ();
 			while (tmplist.length () > 0) {
-				unowned List<TilableWindow?> link = tmplist.nth (0);
+				unowned List<unowned TilableWindow?> link = tmplist.nth (0);
 				var window = link.data;
 				var rect = window.rect;
 
@@ -332,6 +332,18 @@ namespace Gala
 
 			result.reverse ();
 			return result;
+		}
+
+		public static inline bool get_window_is_normal (Meta.Window window)
+		{
+			switch (window.get_window_type ()) {
+				case Meta.WindowType.NORMAL:
+				case Meta.WindowType.DIALOG:
+				case Meta.WindowType.MODAL_DIALOG:
+					return true;
+				default:
+					return false;
+			}
 		}
 
 		/* TODO needs porting

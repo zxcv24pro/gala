@@ -38,12 +38,12 @@ namespace Gala
 			wm = _wm;
 		}
 
-		public void flash_area (int x, int y, int width, int height)
+		public void flash_area (int x, int y, int width, int height) throws DBusError, IOError
 		{
 			warning ("FlashArea not implemented");
 		}
 
-		public void screenshot (bool include_cursor, bool flash, string filename, out bool success, out string filename_used)
+		public void screenshot (bool include_cursor, bool flash, string filename, out bool success, out string filename_used) throws DBusError, IOError
 		{
 			debug ("Taking screenshot");
 
@@ -54,17 +54,19 @@ namespace Gala
 			success = save_image (image, filename, out filename_used);
 		}
 
-		public void screenshot_area (int x, int y, int width, int height, bool flash, string filename, out bool success, out string filename_used) throws DBusError
+		public async void screenshot_area (int x, int y, int width, int height, bool flash, string filename, out bool success, out string filename_used) throws DBusError, IOError
 		{
 			debug ("Taking area screenshot");
 			
+			yield wait_stage_repaint ();
+
 			var image = take_screenshot (x, y, width, height, false);
 			success = save_image (image, filename, out filename_used);
 			if (!success)
 				throw new DBusError.FAILED ("Failed to save image");
 		}
 
-		public void screenshot_window (bool include_frame, bool include_cursor, bool flash, string filename, out bool success, out string filename_used)
+		public void screenshot_window (bool include_frame, bool include_cursor, bool flash, string filename, out bool success, out string filename_used) throws DBusError, IOError
 		{
 			debug ("Taking window screenshot");
 
@@ -89,7 +91,7 @@ namespace Gala
 			success = save_image (image, filename, out filename_used);
 		}
 
-		public async void select_area (out int x, out int y, out int width, out int height)
+		public async void select_area (out int x, out int y, out int width, out int height) throws DBusError, IOError
 		{
 			var selection_area = new SelectionArea (wm);
 			selection_area.closed.connect (() => Idle.add (select_area.callback));
@@ -97,8 +99,10 @@ namespace Gala
 			selection_area.start_selection ();
 
 			yield;
+			selection_area.destroy ();
+			
+			yield wait_stage_repaint ();
 			selection_area.get_selection_rectangle (out x, out y, out width, out height);
-			wm.ui_group.remove (selection_area);
 		}
 
 		static bool save_image (Cairo.ImageSurface image, string filename, out string used_filename)
@@ -217,6 +221,18 @@ namespace Gala
 			cr.paint ();
 
 			return (Cairo.ImageSurface)cr.get_target ();
+		}
+
+		async void wait_stage_repaint ()
+		{
+			ulong signal_id = 0UL;
+			signal_id = wm.stage.paint.connect_after (() => {
+				wm.stage.disconnect (signal_id);
+				Idle.add (wait_stage_repaint.callback);
+			});
+
+			wm.stage.queue_redraw ();
+			yield;
 		}
 	}
 }
