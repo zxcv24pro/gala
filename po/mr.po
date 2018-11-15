@@ -2,13 +2,12 @@
 # Copyright (C) 2018 The Gala Developers
 # This file is distributed under the same license as the gala package.
 # Automatically generated, 2018.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: gala 0.3.1\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-15 06:03+0000\n"
+"PO-Revision-Date: 2018-11-15 07:47+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://weblate.elementary.io/projects/desktop/gala/"
 "mr/>\n"
@@ -21,43 +20,43 @@ msgstr ""
 
 #: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
-msgstr ""
+msgstr "डिस्प्ले ठीक दिसत आहे का?"
 
 #: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
-msgstr ""
+msgstr "हे कॉन्फिगरेशन ठेवा"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr ""
+msgstr "मागील कॉन्फिगरेशन पुनर्संचयित करा"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
-msgstr ""
+msgstr "कमी करा"
 
 #: daemon/MenuDaemon.vala:114
 msgid "Move"
-msgstr ""
+msgstr "हलवा"
 
 #: daemon/MenuDaemon.vala:120
 msgid "Resize"
-msgstr ""
+msgstr "पुन्हा मापाने आकार द्या"
 
 #: daemon/MenuDaemon.vala:126
 msgid "Always on Top"
-msgstr ""
+msgstr "नेहमीच वरच्या बाजूला"
 
 #: daemon/MenuDaemon.vala:132
 msgid "Always on Visible Workspace"
-msgstr ""
+msgstr "नेहमी दिसणाऱ्या कार्यक्षेत्रावर"
 
 #: daemon/MenuDaemon.vala:138
 msgid "Move to Workspace Left"
-msgstr ""
+msgstr "डाव्या कार्यक्षेत्रावर हलवा"
 
 #: daemon/MenuDaemon.vala:144
 msgid "Move to Workspace Right"
-msgstr ""
+msgstr "उजव्या कार्यक्षेत्रावर हलवा"
 
 #: daemon/MenuDaemon.vala:150
 msgid "Close"
@@ -65,24 +64,24 @@ msgstr "बंद करा"
 
 #: daemon/MenuDaemon.vala:167
 msgid "Unmaximize"
-msgstr ""
+msgstr "मोठा आकार पुर्ववत करा"
 
 #: daemon/MenuDaemon.vala:167
 msgid "Maximize"
-msgstr ""
+msgstr "आकार मोठा करा"
 
 #: data/gala-multitaskingview.desktop.in:4
 #: data/gala-multitaskingview.desktop.in:6
 msgid "Multitasking View"
-msgstr ""
+msgstr "मल्टीटास्किंग दृश्य"
 
 #: data/gala-multitaskingview.desktop.in:5
 msgid "View all open windows and workspaces"
-msgstr ""
+msgstr "सर्व खुल्या विंडोज आणि कार्यक्षेत्रे पहा"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
-msgstr ""
+msgstr "मल्टीटास्किंग-दृश्य"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
