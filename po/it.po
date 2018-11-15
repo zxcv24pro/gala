@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-15 00:23+0000\n"
+"PO-Revision-Date: 2018-11-17 00:01+0000\n"
 "Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/desktop/gala/"
 "it/>\n"
@@ -351,7 +351,7 @@ msgstr "Durata dell'animazione mappatura menù"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:213
 msgid "Defines the shadow of normal focused windows"
-msgstr "Definisce l'ombra delle normali finestre con focus"
+msgstr "Definisce l'ombra delle finestre normali attive"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:214
 msgid ""
@@ -367,14 +367,14 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:218
 msgid "Defines the shadow of a normal unfocused window"
-msgstr "Definisce l'ombra di una normale finestra senza focus"
+msgstr "Definisce l'ombra di una normale finestra in secondo piano"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:219
 #: data/org.pantheon.desktop.gala.gschema.xml.in:224
 #: data/org.pantheon.desktop.gala.gschema.xml.in:229
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
 msgid "See normal-focused."
-msgstr "Vedi finestra attiva normale."
+msgstr "Vedi finestra normale attiva."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:223
 msgid "Defines the shadow of a menu"
@@ -382,11 +382,11 @@ msgstr "Definisce l'ombra di un menù"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:228
 msgid "Defines the shadow of a focused dialog"
-msgstr "Definisce l'ombra di una finestra di dialogo con focus"
+msgstr "Definisce l'ombra di una finestra di dialogo attiva"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:233
 msgid "Defines the shadow of an unfocused dialog"
-msgstr "Definisce l'ombra di una finestra di dialogo senza focus"
+msgstr "Definisce l'ombra di una finestra di dialogo in secondo piano"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:241
 msgid "Disable all notifications"
