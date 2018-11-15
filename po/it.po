@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-08-24 00:01+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2018-11-15 00:08+0000\n"
+"Last-Translator: Marco De Paolini <marco.depaolini@gmail.com>\n"
 "Language-Team: Italian <https://weblate.elementary.io/projects/desktop/gala/"
 "it/>\n"
 "Language: it\n"
@@ -106,9 +106,8 @@ msgid "Algorithm for window overview layout"
 msgstr "Algoritmo per la disposizione della panoramica delle finestre"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
-#, fuzzy
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Scegliere l'algoritmo utilizzato per esporre le finestre"
+msgstr "Scegliere l'algoritmo utilizzato per esporre le finestre."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
@@ -123,12 +122,11 @@ msgid "Action for the bottom right corner"
 msgstr "Azione per l'angolo in basso a destra"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
-#, fuzzy
 msgid ""
 "The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
 msgstr ""
-"Il comando verrà eseguito per l'azione 'custom-command' o multipla "
+"Il comando che verrà eseguito per l'azione 'custom-command' o multipla "
 "dell'angolo attivo"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
