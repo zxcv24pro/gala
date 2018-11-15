@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-15 00:08+0000\n"
+"PO-Revision-Date: 2018-11-15 21:09+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.elementary.io/projects/desktop/"
 "gala/lt/>\n"
@@ -253,11 +253,12 @@ msgstr "Perjungti į ankstesnį klaviatūros išdėstymą"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:147
 msgid "The shortcut to enable picture-in-picture window"
-msgstr ""
+msgstr "Susiejimas skirtas įjungti paveikslo paveiksle langą"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
 msgstr ""
+"Susiejimas skirtas rodyti pasirinkimo sritį kuri skirta pasirinkti langą."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid "Attach modal dialogs"
@@ -296,14 +297,12 @@ msgstr ""
 "įterpimui tarp dviejų gretimų mygtukų."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:165
-#, fuzzy
 msgid "Dims parent windows when spawning modal dialogs"
-msgstr "Užtemdyti tėvinius langus, sukuriančius pridėtą modalinį dialogą"
+msgstr "Užtemdo tėvinius langus, sukuriančius modalinį dialogą"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:170
-#, fuzzy
 msgid "The opacity of windows behind the window switcher."
-msgstr "Foninių langų nepermatomumas langų perjungiklyje"
+msgstr "Foninių langų nepermatomumas langų perjungiklyje."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Background-image used in the workspace-switcher"
@@ -346,7 +345,6 @@ msgid "Defines the shadow of normal focused windows"
 msgstr "Apibrėžia normalaus sufokusuoto lango šėšėlį"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:214
-#, fuzzy
 msgid ""
 "The first value is the radius of the blur of the shadow, the second one the "
 "top fade (which is usually just -1), the third and fourth the x- and y-"
@@ -356,8 +354,8 @@ msgstr ""
 "Pirmoji reikšmė yra šešėlio suliejimo spindulys, antroji reikšmė - "
 "viršutinis išblukimas (kuri, dažniausiai, yra -1), trečioji ir ketvirtoji "
 "yra x- ir y-poslinkis, o paskutinė - nepermatomumas. Taigi, [suliejimo-"
-"spindulys, viršutinis-išblukimas, x-poslinkis, y-poslinkis, nepermatomumas] "
-"(angl. [blur-radius, top-fade, x-offset, y-offset, opacity])"
+"spindulys, viršutinis-išblukimas, x-poslinkis, y-poslinkis, nepermatomumas] ("
+"angl. [blur-radius, top-fade, x-offset, y-offset, opacity])."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:218
 msgid "Defines the shadow of a normal unfocused window"
@@ -367,9 +365,8 @@ msgstr "Apibrėžia nesufokusuoto normalaus lango šėšėlį"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:224
 #: data/org.pantheon.desktop.gala.gschema.xml.in:229
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
-#, fuzzy
 msgid "See normal-focused."
-msgstr "Žiūrėkite normalus sufokusuotas (angl. normal-focused)"
+msgstr "Žiūrėti įprastą sufokusuotą (angl. normal-focused)."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:223
 msgid "Defines the shadow of a menu"
