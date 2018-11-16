@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-09-22 00:10+0000\n"
+"PO-Revision-Date: 2018-11-16 04:25+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.elementary.io/projects/"
 "desktop/gala/pt_BR/>\n"
@@ -106,9 +106,8 @@ msgid "Algorithm for window overview layout"
 msgstr "Algoritmo para o visualizador de janelas"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
-#, fuzzy
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Escolha o algoritmo para expor as janelas"
+msgstr "Escolha o algoritmo usado para expor as janelas."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
@@ -123,16 +122,14 @@ msgid "Action for the bottom right corner"
 msgstr "Ação para o canto inferior direito"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
-#, fuzzy
 msgid ""
 "The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
 msgstr ""
-"O comando que será executado pela ação de canto de tela 'comando-"
-"personalizado' ou múltiplos"
+"O comando que será executado para a ação de canto ativo 'comando-"
+"personalizado' ou múltiplo"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
-#, fuzzy
 msgid ""
 "If you just put a single command, it will be used for every hot corner "
 "assigned to 'custom-command'. If you instead use the pattern 'hotcorner-"
@@ -145,9 +142,9 @@ msgstr ""
 "tela atribuídos a 'comando-personalizado'. Se, ao invés disso, você usar o "
 "padrão 'hotcorner-topleft:command;;hotcorner-bottomright:command', os "
 "comandos específicos serão usados por cada canto de tela. Possíveis "
-"identificadores são: 'hotcorner-[topleft; topright; bottomleft; "
-"bottomright]' seguidos por um ':' e por um comando. ';;' é usado como "
-"separador entre definições de comando."
+"identificadores são: 'hotcorner-[topleft; topright; bottomleft; bottomright]"
+"' seguidos por um ':' e por um comando. ';;' é usado como separador entre "
+"definições de comando."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:57
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -169,24 +166,22 @@ msgid "Panel main menu action"
 msgstr "Ação do menu principal do painel"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:63
-#, fuzzy
 msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
 msgstr ""
-"Configura o comando a ser executado quando a tecla de atalho menu-do-painel-"
-"principal for pressionada"
+"Define o comando para ser executado quando a tecla de atalho do menu "
+"principal do painel é pressionada."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
 msgstr "Habilitar áreas de trabalho dinâmicas em vez de estáticas"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:78
-#, fuzzy
 msgid ""
 "Use a dynamically increasing or decreasing number, as needed, of workspaces "
 "instead of a static, fixed number."
 msgstr ""
-"Usar dinamicamente um número crescente ou decrescente de áreas de trabalho, "
-"conforme necessário, em vez de um número estático e fixado"
+"Use um número dinamicamente crescente ou decrescente, conforme necessário, "
+"de espaços de trabalho em vez de um número fixo estático."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid "Names that are recognized as dock windows for the window switcher"
@@ -194,15 +189,14 @@ msgstr ""
 "Nomes que são reconhecidos como janelas dock para o alternador de janela"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:83
-#, fuzzy
 msgid ""
 "When launching the window-switcher, Gala iterates over this list and "
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
-"Ao abrir o alternador de janelas, gala interage sobre esta lista e tenta "
-"encontrar uma janela com um desses nomes. Se encontrar, esconderá a janela e "
-"volta a mostrá-la quando o alternador for fechado."
+"Ao iniciar o alternador de janelas, o recurso Gala é repetido nessa lista e "
+"tenta encontrar uma janela que corresponda aos nomes. Em caso afirmativo, "
+"ele ocultará essa janela e a recuperará, assim que o comutador for fechado."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:90
 msgid "Shortcut to move to first workspace"
@@ -258,11 +252,11 @@ msgstr "Alternar para o layout de teclado anterior"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:147
 msgid "The shortcut to enable picture-in-picture window"
-msgstr ""
+msgstr "O atalho para ativar a janela picture-in-picture"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
-msgstr ""
+msgstr "O atalho para mostrar a área de seleção para escolher uma janela."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid "Attach modal dialogs"
@@ -302,14 +296,12 @@ msgstr ""
 "adjacentes."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:165
-#, fuzzy
 msgid "Dims parent windows when spawning modal dialogs"
-msgstr "Fazer com que uma janela que gera um diálogo modal seja escurecida"
+msgstr "Escurece janelas pai ao gerar diálogos modais"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:170
-#, fuzzy
 msgid "The opacity of windows behind the window switcher."
-msgstr "A opacidade das janelas localizadas em segundo plano na ação alt-tab."
+msgstr "A opacidade das janelas em segundo plano do alternador de janelas."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Background-image used in the workspace-switcher"
@@ -352,7 +344,6 @@ msgid "Defines the shadow of normal focused windows"
 msgstr "Define a sombra de uma janela normal em foco"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:214
-#, fuzzy
 msgid ""
 "The first value is the radius of the blur of the shadow, the second one the "
 "top fade (which is usually just -1), the third and fourth the x- and y-"
@@ -361,8 +352,8 @@ msgid ""
 msgstr ""
 "O primeiro valor é o raio do desfoque da sombra, o segundo o escurecimento "
 "inicial (normalmente -1), o terceiro e quarto os valores de deslocamento x e "
-"y e o último a opacidade. Formato: [blur-radius, top-fade, x-offset, y-"
-"offset, opacity]"
+"y e o último a opacidade. Então: [blur-radius, top-fade, x-offset, y-offset, "
+"opacity]."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:218
 msgid "Defines the shadow of a normal unfocused window"
@@ -372,9 +363,8 @@ msgstr "Define a sombra de uma janela normal em segundo plano"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:224
 #: data/org.pantheon.desktop.gala.gschema.xml.in:229
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
-#, fuzzy
 msgid "See normal-focused."
-msgstr "Ver normal-focada"
+msgstr "Veja foco normal."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:223
 msgid "Defines the shadow of a menu"
