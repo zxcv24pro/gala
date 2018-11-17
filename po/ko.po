@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-14 22:33+0000\n"
+"PO-Revision-Date: 2018-11-18 00:07+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://weblate.elementary.io/projects/desktop/gala/"
 "ko/>\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
-msgstr "화면이 올바르게 보입니까?"
+msgstr "화면이 잘 나오나요?"
 
 #: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
-msgstr "이 설정 유지하기"
+msgstr "설정을 이대로 유지합니다"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "이전 설정으로 되돌리기"
+msgstr "이전 설정으로 되돌립니다"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
