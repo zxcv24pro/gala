@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-17 07:25+0000\n"
+"PO-Revision-Date: 2018-11-18 00:07+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/desktop/gala/"
 "he/>\n"
@@ -17,15 +17,15 @@ msgstr ""
 
 #: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
-msgstr "האם התצוגה נראית בסדר?"
+msgstr "התצוגה נראית בסדר?"
 
 #: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
-msgstr "שמירת תצורה זו"
+msgstr "להשאיר את התצורה הזאת"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "שחזור תצורה קודמת"
+msgstr "שחזור התצורה הקודמת"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
