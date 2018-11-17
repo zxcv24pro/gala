@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-17 00:01+0000\n"
+"PO-Revision-Date: 2018-11-18 00:07+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://weblate.elementary.io/projects/"
 "desktop/gala/nb/>\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
-msgstr "Ser skjermen bra ut?"
+msgstr "Ser skjermen OK ut?"
 
 #: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
-msgstr "Behold denne konfigurasjonen"
+msgstr "Behold dette oppsettet"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "Gjenopprett forrige konfigurasjon"
+msgstr "Gjenopprett tidligere oppsett"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
