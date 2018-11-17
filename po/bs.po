@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-03 13:20+0000\n"
+"PO-Revision-Date: 2018-11-17 09:22+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/desktop/gala/"
 "bs/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-21 05:47+0000\n"
 
@@ -108,9 +108,8 @@ msgid "Algorithm for window overview layout"
 msgstr "Algoritam za pregled rasporeda prozora"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
-#, fuzzy
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Izaberite algoritam koji će se koristiti za prikazivanje prozora"
+msgstr "Odaberite algoritam korišten za izlaganje prozora."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
@@ -125,16 +124,14 @@ msgid "Action for the bottom right corner"
 msgstr "Akcija za donji desni ugao"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
-#, fuzzy
 msgid ""
 "The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
 msgstr ""
-"Komanda (ili više njih) koja će se izvršiti ukoliko izaberete pokretanje "
-"vlastitih komandi"
+"Ova naredba će biti izvršena kao radnja za aktivne uglove 'custom-command'. "
+"Više radnji je moguće."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
-#, fuzzy
 msgid ""
 "If you just put a single command, it will be used for every hot corner "
 "assigned to 'custom-command'. If you instead use the pattern 'hotcorner-"
@@ -143,13 +140,12 @@ msgid ""
 "topright; bottomleft; bottomright]' followed by a ':' and then the command. "
 "';;' is used as delimiter between command defintions."
 msgstr ""
-"Ukoliko unesete samo jednu komandu, ta komanda će biti korištena za svaki "
-"ugao na kojem označite da želite da koristite vlastite komande. Ukoliko "
-"umjesto toga koristite patern 'hotcorner-topleft:command;;hotcorner-"
-"bottomright:command', koristiće se specifična komanda za svaki ugao. Mogući "
-"identifikatoru su 'hotcorner-[topleft; topright; bottomleft; bottomright]', "
-"nakon čega je potrebno da stavite znak ':', pa naziv komande. ';;' se "
-"koristi kao skup znakova koji odvajaju definicije komandi."
+"Ako unesete jednu naredbu, ona će biti korištena za svaki aktivni ugao kojem "
+"je dodijeljena 'custom-command'. Ako umjesto toga koristite šablon "
+"'hotcorner-topleft:command;;hotcorner-bottomright:command', specifične "
+"naredbe će biti korištene za svaki ugao. Mogući identifikatoru su "
+"'hotcorner-[topleft; topright; bottomleft; bottomright]', pa ':' i onda "
+"naredba. ';;' se koristi za razdvajanje između definicija naredbi."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:57
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -171,39 +167,36 @@ msgid "Panel main menu action"
 msgstr "Akcija panela glavnog menija"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:63
-#, fuzzy
 msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
 msgstr ""
-"Postavlja komandu koja će se izvršite kada je panel-main-menu kombinacija "
-"tastera pritisnuta"
+"Podešava da naredba bude pokrenuta kada se pritisne prečica panela glavnog "
+"izbornika."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
 msgstr "Omogući dinamički radni prostor umjesto statičkog"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:78
-#, fuzzy
 msgid ""
 "Use a dynamically increasing or decreasing number, as needed, of workspaces "
 "instead of a static, fixed number."
 msgstr ""
-"Koristite dinamički rastući ili opadajući broj radnih površina umjesto "
-"statičkog, fiksnog broja"
+"Koristite dinamički rastući ili opadajući broj radnih prostora prema potrebi "
+"a umjesto statičkog, fiksnog broja."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid "Names that are recognized as dock windows for the window switcher"
 msgstr "Imena koja su prepoznata kao dok prozori za svičer prozora"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:83
-#, fuzzy
 msgid ""
 "When launching the window-switcher, Gala iterates over this list and "
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
-"Prilikom pokretanja svičera prozora, gala iterira preko liste i pokušava da "
-"pronađe prozor kojem se poklapa ime. Ukoliko pronađe takav, prozor će se "
-"sakriti i ponovo prikazati kada se zatvori svičer."
+"Prilikom pokretanja izmjenjivača prozora Gala čita listu i pokušava da "
+"pronađe prozor koji odgovara imenima. Ako pronađe, sakrit će ovaj prozor i "
+"ponovo ga prikazati kada izmjenjivač bude zatvoren."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:90
 msgid "Shortcut to move to first workspace"
@@ -258,11 +251,11 @@ msgstr "Prebaci na prethodni raspored tastature"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:147
 msgid "The shortcut to enable picture-in-picture window"
-msgstr ""
+msgstr "Prečica za aktiviranje prozora slika u slici"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
-msgstr ""
+msgstr "Prečica za prikaz odabranog područja za izbor prozora."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid "Attach modal dialogs"
@@ -302,14 +295,12 @@ msgstr ""
 "se napravilo mjesta između dva susjedna dugmeta."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:165
-#, fuzzy
 msgid "Dims parent windows when spawning modal dialogs"
-msgstr "Nadređeni prozori sa priloženim modalnim dijalogom će biti zatamnjeni"
+msgstr "Nadređeni prozori s dodatnim modalnim dijalozima će biti zatamnjeni"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:170
-#, fuzzy
 msgid "The opacity of windows behind the window switcher."
-msgstr "Prozirnost prozora u pozadini sklopke alt-tab."
+msgstr "Prozirnost prozora iza izmjenjivača prozora."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Background-image used in the workspace-switcher"
@@ -352,16 +343,15 @@ msgid "Defines the shadow of normal focused windows"
 msgstr "Određuje sjenku normalnih prozora u fokusu"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:214
-#, fuzzy
 msgid ""
 "The first value is the radius of the blur of the shadow, the second one the "
 "top fade (which is usually just -1), the third and fourth the x- and y-"
 "offset and the last the opacity. So [blur-radius, top-fade, x-offset, y-"
 "offset, opacity]."
 msgstr ""
-"Prva vrijednost je radijus zamagljenja sjenke, druga je gornje iščezavanje "
-"(fade, koji je obično samo -1), treća i četvrta su x i y pomak a posljednja "
-"je prozirnost. Dakle, [blur-radius, top-fade, x-offset, y-offset, opacity]"
+"Prva vrijednost je radijus zamagljenja sjenke, druga je gornje iščezavanje ("
+"fade, koji je obično samo -1), treća i četvrta su x i y pomak a posljednja "
+"je prozirnost. Dakle, [blur-radius, top-fade, x-offset, y-offset, opacity]."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:218
 msgid "Defines the shadow of a normal unfocused window"
@@ -371,7 +361,6 @@ msgstr "Određuje sjenku normalnih prozora u fokusu"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:224
 #: data/org.pantheon.desktop.gala.gschema.xml.in:229
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
-#, fuzzy
 msgid "See normal-focused."
 msgstr "Vidi normal-focused"
 
