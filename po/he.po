@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-17 00:01+0000\n"
+"PO-Revision-Date: 2018-11-17 07:25+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.elementary.io/projects/desktop/gala/"
 "he/>\n"
@@ -123,7 +123,6 @@ msgid ""
 msgstr "הפקודה שתופעל עבור פעולת הפינה החמה ‚custom-command’ או מספר פינות"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
-#, fuzzy
 msgid ""
 "If you just put a single command, it will be used for every hot corner "
 "assigned to 'custom-command'. If you instead use the pattern 'hotcorner-"
@@ -136,7 +135,7 @@ msgstr ""
 "command’. אם במקום ייעשה שימוש בתבנית ‚hotcorner-topleft:command;;hotcorner-"
 "bottomright:command’ ייעשה שימוש בפקודות מסוימות לפי כל פינה חמה. המזהים "
 "האפשריים הם ‚hotcorner-[topleft; topright; bottomleft; bottomright]’ ולאחר "
-"מכן ‚:’ ואז הפקודה. ניתן להשתמש ב־‚;;’ כדי להפריד בין פקודות."
+"מכן ‚:’ ואז הפקודה. ניתן להשתמש ב־‚;;’ כדי להפריד בין הגדרות פקודות."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:57
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -157,11 +156,10 @@ msgid "Panel main menu action"
 msgstr "פעולת תפריט ראשי של חלונית"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:63
-#, fuzzy
 msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
 msgstr ""
 "הגדרת הפקודה להפעלה כאשר צירוף המקשים לתפריט ראשי של לוח (panel-main-menu) "
-"נלחץ"
+"נלחץ."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
@@ -180,13 +178,12 @@ msgid "Names that are recognized as dock windows for the window switcher"
 msgstr "שמות שמזוהים כחלונות מעגן עבור מחליף החלונות"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:83
-#, fuzzy
 msgid ""
 "When launching the window-switcher, Gala iterates over this list and "
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
-"בעת טעינת מחליף החלונות, מנגנון gala עובר על הפריטים ברשימה הזאת ומנסה למצוא "
+"בעת טעינת מחליף החלונות, מנגנון Gala עובר על הפריטים ברשימה הזאת ומנסה למצוא "
 "חלון עם שמות תואמים לאלה. אם הוא מוצא, הוא יסתיר את החלון ויעמעם אותו לאחר "
 "סגירת מחליף החלונות."
 
@@ -332,16 +329,15 @@ msgid "Defines the shadow of normal focused windows"
 msgstr "הגדרת הצללה של חלונות ממוקדים רגילים"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:214
-#, fuzzy
 msgid ""
 "The first value is the radius of the blur of the shadow, the second one the "
 "top fade (which is usually just -1), the third and fourth the x- and y-"
 "offset and the last the opacity. So [blur-radius, top-fade, x-offset, y-"
 "offset, opacity]."
 msgstr ""
-"הערך הראשון הוא הרדיוס של טשטוש הצל, השני הוא של העמעום העליון (בדרך כלל פשוט"
-" ‎-1), השני והשלישי הם ההיסט בצירים x ו־y בהתאמה והאחרון זאת שקיפות. לפיכך "
-"[רדיוס טשטוש, עמעום מלמעלה, היסט x, היסט y, אטימות]"
+"הערך הראשון הוא הרדיוס של טשטוש הצל, השני הוא של העמעום העליון (בדרך כלל "
+"פשוט ‎-1), השני והשלישי הם ההיסט בצירים x ו־y בהתאמה והאחרון זאת אטימות. "
+"לפיכך [רדיוס טשטוש, עמעום מלמעלה, היסט x, היסט y, אטימות]."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:218
 msgid "Defines the shadow of a normal unfocused window"
