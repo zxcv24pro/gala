@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-17 09:22+0000\n"
+"PO-Revision-Date: 2018-11-18 00:07+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/desktop/gala/"
 "bs/>\n"
@@ -362,7 +362,7 @@ msgstr "Određuje sjenku normalnih prozora u fokusu"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:229
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
 msgid "See normal-focused."
-msgstr "Vidi normal-focused"
+msgstr "Vidi normal-focused."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:223
 msgid "Defines the shadow of a menu"
