@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-10-28 00:05+0000\n"
+"PO-Revision-Date: 2018-11-19 00:07+0000\n"
 "Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/desktop/gala/"
 "tr/>\n"
@@ -107,9 +107,8 @@ msgid "Algorithm for window overview layout"
 msgstr "Pencere görünüm düzeni algoritması"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
-#, fuzzy
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Pencerelerin gösterimi için kullanılacak algoritmayı seçin"
+msgstr "Pencerelerin gösterimi için kullanılan algoritmayı seçin."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
@@ -124,7 +123,6 @@ msgid "Action for the bottom right corner"
 msgstr "Sağ alt köşe eylemi"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
-#, fuzzy
 msgid ""
 "The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
