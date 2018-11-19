@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-17 00:01+0000\n"
+"PO-Revision-Date: 2018-11-20 00:03+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://weblate.elementary.io/projects/desktop/gala/"
 "ca/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
-msgstr "Es veu correctament la pantalla?"
+msgstr "La pantalla es veu bé?"
 
 #: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
@@ -30,7 +30,7 @@ msgstr "Mantén aquesta configuració"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "Restaura la configuració prèvia"
+msgstr "Restaura la configuració anterior"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
