@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-20 09:46+0000\n"
-"Last-Translator: Takumi Nishino <nistak04@yahoo.co.jp>\n"
+"PO-Revision-Date: 2018-11-20 09:51+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/desktop/gala/"
 "ja/>\n"
 "Language: ja\n"
@@ -346,7 +346,7 @@ msgstr "通常のフォーカスされていないダイアログの影の定義
 #: data/org.pantheon.desktop.gala.gschema.xml.in:229
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
 msgid "See normal-focused."
-msgstr "normal-focusedを参照してください。"
+msgstr "normal-focused を参照してください。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:223
 msgid "Defines the shadow of a menu"
