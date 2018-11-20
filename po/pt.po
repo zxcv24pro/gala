@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gala\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-16 16:20+0000\n"
+"PO-Revision-Date: 2018-11-22 00:02+0000\n"
 "Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/desktop/"
 "gala/pt/>\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
-msgstr "O ecrã está bem assim?"
+msgstr "O ecrã parece-lhe estar bem?"
 
 #: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
-msgstr "Manter esta configuração"
+msgstr "Manter Esta Configuração"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "Restaurar configuração anterior"
+msgstr "Restaurar as Configuração Anteriores"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
