@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-20 09:51+0000\n"
-"Last-Translator: Takumi Nishino <nistak04@yahoo.co.jp>\n"
+"PO-Revision-Date: 2018-11-22 00:02+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/desktop/gala/"
 "ja/>\n"
 "Language: ja\n"
@@ -232,7 +232,7 @@ msgstr "次のキーボードレイアウトに変更"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:143
 #: data/org.pantheon.desktop.gala.gschema.xml.in:171
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr "非推奨: このキーは廃止予定であるため、無視されます。"
+msgstr "非推奨：このキーは廃止予定であり、無視されます。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:142
 msgid "Cycle to previous keyboard layout"
@@ -301,9 +301,7 @@ msgstr "アニメーションを有効にする"
 msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
-msgstr ""
-"アニメーションを有効にするかどうかを設定します。注意: これはグローバルな設定"
-"なので、ウィンドウマネージャーやパネルなどの挙動に影響します。"
+msgstr "アニメーションを有効にするかどうかを設定します。注意：これはグローバルな設定なので、ウィンドウマネージャーやパネルなどの挙動に影響します。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:190
 msgid "Duration of the snap animation as used by maximize/unmaximize"
@@ -336,8 +334,8 @@ msgid ""
 "offset and the last the opacity. So [blur-radius, top-fade, x-offset, y-"
 "offset, opacity]."
 msgstr ""
-"1番目の値は影のぼかし効果の半径で、2番目がトップフェードの値（多くの場合は-1です）、3番目と4番目の値はxオフセットとyオフセット、5番目は透明度です"
-"。つまり、[blur-radius,top-fade,x-offset,y-offset,opacity]です。"
+"1 番目の値は影のぼかし効果の半径で、2 番目が上部のフェードの値 (ほとんどの場合 -1 です)、3 番目と 4 番目の値は x オフセットと y "
+"オフセット、5 番目は透明度です。つまり、[影の半径, 上部のフェード, x オフセット, y オフセット, 透明度] です。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:218
 msgid "Defines the shadow of a normal unfocused window"
