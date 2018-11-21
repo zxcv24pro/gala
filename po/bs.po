@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-18 00:07+0000\n"
+"PO-Revision-Date: 2018-11-22 00:02+0000\n"
 "Last-Translator: Elvis Mujanović <elvis.mujanovic@gmail.com>\n"
 "Language-Team: Bosnian <https://weblate.elementary.io/projects/desktop/gala/"
 "bs/>\n"
@@ -23,15 +23,15 @@ msgstr ""
 
 #: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
-msgstr "Da li ekran izgleda kako treba?"
+msgstr "Da li ekran izgleda dobro?"
 
 #: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
-msgstr "Sačuvaj ovu konfiguraciju"
+msgstr "Zadrži ovu konfiguraciju"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "Vrati prethodnu konfiguraciju"
+msgstr "Vrati na prethodnu konfiguraciju"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
