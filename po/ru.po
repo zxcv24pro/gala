@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-05-10 00:08+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2018-11-24 00:10+0000\n"
+"Last-Translator: Kirill Romanov <djaler1@gmail.com>\n"
 "Language-Team: Russian <https://weblate.elementary.io/projects/desktop/gala/"
 "ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2017-02-21 05:47+0000\n"
 
 #: src/WindowManager.vala:1839
@@ -107,9 +107,8 @@ msgid "Algorithm for window overview layout"
 msgstr "Алгоритм просмотра окон"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
-#, fuzzy
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Выбрать алгоритм, используемый для раскрытия окна"
+msgstr "Выберите алгоритм, используемый для раскрытия окна."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
@@ -124,7 +123,6 @@ msgid "Action for the bottom right corner"
 msgstr "Действие в правом нижнем углу"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
-#, fuzzy
 msgid ""
 "The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
@@ -133,7 +131,6 @@ msgstr ""
 "действии «Выполнить команду»"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
-#, fuzzy
 msgid ""
 "If you just put a single command, it will be used for every hot corner "
 "assigned to 'custom-command'. If you instead use the pattern 'hotcorner-"
@@ -144,8 +141,8 @@ msgid ""
 msgstr ""
 "Если указана только одна команда, то она будет выполняться для любого "
 "активного угла с соответствующим действием. Чтобы указать отдельную команду "
-"для определённого угла необходимо использовать шаблон 'hotcorner-topleft:"
-"command;;hotcorner-bottomright:command'. Возможные идентификаторы — "
+"для определённого угла необходимо использовать шаблон 'hotcorner-"
+"topleft:command;;hotcorner-bottomright:command'. Возможные идентификаторы — "
 "'hotcorner-[topleft; topright; bottomleft; bottomright]', после которых идёт "
 "':' и затем команда. ';;' используется как разделитель."
 
