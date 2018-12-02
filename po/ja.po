@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-25 00:09+0000\n"
+"PO-Revision-Date: 2018-12-02 06:20+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.elementary.io/projects/desktop/gala/"
 "ja/>\n"
@@ -234,7 +234,7 @@ msgstr "次のキーボードレイアウトに変更"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:143
 #: data/org.pantheon.desktop.gala.gschema.xml.in:171
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr "非推奨：このキーは廃止予定であり、無視されます。"
+msgstr "非推奨: このキーは廃止予定であり、無視されます。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:142
 msgid "Cycle to previous keyboard layout"
@@ -303,7 +303,7 @@ msgstr "アニメーションを有効にする"
 msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
-msgstr "アニメーションを有効にするかどうかを設定します。注意：これはグローバルな設定なので、ウィンドウマネージャーやパネルなどの挙動に影響します。"
+msgstr "アニメーションを有効にするかどうかを設定します。注意: これはグローバルな設定なので、ウィンドウマネージャーやパネルなどの挙動に影響します。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:190
 msgid "Duration of the snap animation as used by maximize/unmaximize"
