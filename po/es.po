@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gala\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-22 00:02+0000\n"
+"PO-Revision-Date: 2018-12-08 00:04+0000\n"
 "Last-Translator: Cristian Molina <megatux@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.elementary.io/projects/desktop/gala/"
 "es/>\n"
@@ -30,7 +30,7 @@ msgstr "Mantener esta configuración"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "Restaurar configuración previa"
+msgstr "Restablecer configuración anterior"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
