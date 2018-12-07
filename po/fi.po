@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gala\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-18 00:07+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2018-12-07 02:49+0000\n"
+"Last-Translator: Veli-Pekka Samuli Finnilä <vpf@tuta.io>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/desktop/gala/"
 "fi/>\n"
 "Language: fi\n"
@@ -106,9 +106,8 @@ msgid "Algorithm for window overview layout"
 msgstr "Algoritmi ikkunoiden yleiskatsauksen asettelulle"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
-#, fuzzy
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Valitse algoritmi ikkunoiden näyttämiseksi"
+msgstr "Valitse algoritmi ikkunoiden paljastamiseksi."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
@@ -123,16 +122,14 @@ msgid "Action for the bottom right corner"
 msgstr "Oikean alakulman toiminto"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
-#, fuzzy
 msgid ""
 "The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
 msgstr ""
-"Komento joka suoritetaan yhdelle tai useammalle \"custom-command\"-hotcorner-"
+"Komento joka suoritetaan yhdelle tai useammalle 'custom-command'-hotcorner-"
 "toiminnolle"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
-#, fuzzy
 msgid ""
 "If you just put a single command, it will be used for every hot corner "
 "assigned to 'custom-command'. If you instead use the pattern 'hotcorner-"
@@ -142,11 +139,11 @@ msgid ""
 "';;' is used as delimiter between command defintions."
 msgstr ""
 "Jos laitat vain yhden komennon, sitä käytetään jokaiselle hotcornerille, "
-"joka on määrätty kohteeseen \"custom-command\". Jos käytät sen sijaan kaavaa "
-"\"hotcorner-topleft:command;;hotcorner-bottomright:command\", tietyt "
-"komennot menevät tiettyihin hotcornereihin. Mahdollisia tunnisteita ovat "
-"\"hotcorner-[topleft; topright; bottomleft; bottomright]\", jonka jälkeen "
-"laitetaan \":\", ja sitten vielä lopuksi komento. \";;\"-merkintää käytetään "
+"joka on määrätty kohteeseen 'custom-command'. Jos käytät sen sijaan kaavaa "
+"'hotcorner-topleft:command;;hotcorner-bottomright:command', tietyt komennot "
+"menevät tiettyihin hotcornereihin. Mahdollisia tunnisteita ovat "
+"'hotcorner-[topleft; topright; bottomleft; bottomright]', jonka jälkeen "
+"laitetaan ':', ja sitten vielä lopuksi komento. ';;'-merkintää käytetään "
 "erottimena komentomääritelmille."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:57
@@ -169,37 +166,37 @@ msgid "Panel main menu action"
 msgstr "Paneelin päävalikon toiminto"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:63
-#, fuzzy
 msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
 msgstr ""
-"Asettaa toiminnon joka suoritetaan kun näppäinyhdistelmää panel-main-menu "
-"painetaan"
+"Asettaa komennon joka suoritetaan kun näppäinasetusta panel-main-menu "
+"painetaan."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
 msgstr "Käytä dynaamisia työtiloja kiinteiden työtilojen sijaan"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:78
-#, fuzzy
 msgid ""
 "Use a dynamically increasing or decreasing number, as needed, of workspaces "
 "instead of a static, fixed number."
-msgstr "Muuta työtilojen määrää dynaamisesti tarpeen mukaan"
+msgstr ""
+"Käytä työtiloista dynaamisesti suurenevaa ja pienenevää numeroa tarpeen "
+"mukaan staattisesti asetetun numeron sijaan."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid "Names that are recognized as dock windows for the window switcher"
 msgstr "Nimet jotka tunnistetaan ikkunanvaihtimen telakkaikkunoiksi"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:83
-#, fuzzy
 msgid ""
 "When launching the window-switcher, Gala iterates over this list and "
 "attempts to find a window matching the names. If it does, it will hide this "
 "window and fade it back in, once the the switcher is closed."
 msgstr ""
-"Ikkunanvaihdinta käynnistettäessä gala vertaa tätä listaa ikkunoiden nimiin. "
-"Jos osuma löytyy, piilotetaan kyseinen ikkuna ja tuodaan se takaisin esille "
-"vaihtimen sulkeuduttua."
+"Ikkunanvaihdinta (window-switcher) käynnistettäessä Gala käy läpi tämän "
+"listan ja pyrkii löytämään nimiä vastaavan ikkunan. Osuman löytyessä "
+"kyseinen ikkuna piilotetaan ja häivytetään takaisin esiin vaihtimen "
+"sulkeuduttua."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:90
 msgid "Shortcut to move to first workspace"
@@ -254,11 +251,11 @@ msgstr "Vaihda edelliseen näppäimistöasetteluun"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:147
 msgid "The shortcut to enable picture-in-picture window"
-msgstr ""
+msgstr "Näppäinoikotie kuva kuvassa -ikkunan päällekytkemiselle"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
-msgstr ""
+msgstr "Näppäinoikotie valinta-alueen näyttämiseksi ikkunan valintaa varten."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid "Attach modal dialogs"
@@ -296,14 +293,12 @@ msgstr ""
 "lisätä tilaa erityisellä spacer-avainsanalla."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:165
-#, fuzzy
 msgid "Dims parent windows when spawning modal dialogs"
-msgstr "Himmennä pääikkunat jotka avaavat kiinnitetyn modaalidialogin"
+msgstr "Himmentää emoikkunat modaalidialogeja luotaessa"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:170
-#, fuzzy
 msgid "The opacity of windows behind the window switcher."
-msgstr "Alt-tab-vaihtimen taustalla olevien ikkunoiden läpinäkymättömyys."
+msgstr "Ikkunanvaihtimen takana olevien ikkunoiden läpinäkymättömyys."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Background-image used in the workspace-switcher"
@@ -346,17 +341,16 @@ msgid "Defines the shadow of normal focused windows"
 msgstr "Määrittää tavallisen aktiivisen ikkunan varjon"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:214
-#, fuzzy
 msgid ""
 "The first value is the radius of the blur of the shadow, the second one the "
 "top fade (which is usually just -1), the third and fourth the x- and y-"
 "offset and the last the opacity. So [blur-radius, top-fade, x-offset, y-"
 "offset, opacity]."
 msgstr ""
-"Ensimmäinen arvo on varjon sumennuksen säde, toinen yläosan häivytys "
-"(tavallisesti -1), kolmas ja neljäs x- ja y-siirtymä, ja viimeinen "
+"Ensimmäinen arvo on varjon sumennuksen säde, toinen yläosan häivytys ("
+"tavallisesti -1), kolmas ja neljäs x- ja y-siirtymä, ja viimeinen "
 "läpinäkymättömyys. Eli [sumennuksen säde, yläosan häivytys, x-siirtymä, y-"
-"siirtymä, läpinäkymättömyys]"
+"siirtymä, läpinäkymättömyys]."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:218
 msgid "Defines the shadow of a normal unfocused window"
@@ -366,9 +360,8 @@ msgstr "Määrittää tavallisen epäaktiivisen ikkunan varjon"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:224
 #: data/org.pantheon.desktop.gala.gschema.xml.in:229
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
-#, fuzzy
 msgid "See normal-focused."
-msgstr "Katso normal-focused"
+msgstr "Katso normal-focused."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:223
 msgid "Defines the shadow of a menu"
