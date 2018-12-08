@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-19 00:07+0000\n"
+"PO-Revision-Date: 2018-12-09 00:01+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/desktop/gala/"
 "da/>\n"
@@ -91,7 +91,7 @@ msgstr "Andet"
 
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
-msgstr "Fallback desktop-fil til notifikationer fra forældede programmer."
+msgstr "Fallback desktop-fil til notifikationer fra forældede applikationer."
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
@@ -419,7 +419,7 @@ msgid ""
 "corner masks will be disabled on that monitor."
 msgstr ""
 "Hvis den er aktiveret, vil hjørnemaskerne blive deaktiveret på den skærm, "
-"når et program er fuldskærm (fylder hele skærmen)."
+"når en applikation er maksimeret (fylder hele skærmen)."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:278
 msgid "Only show corner masks on primary monitor"
