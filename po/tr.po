@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-19 00:07+0000\n"
+"PO-Revision-Date: 2018-12-13 00:06+0000\n"
 "Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/desktop/gala/"
 "tr/>\n"
@@ -129,7 +129,6 @@ msgid ""
 msgstr "'özel-komut' ya da çoklu etkin-köşe eylemi için çalıştırılacak komut"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
-#, fuzzy
 msgid ""
 "If you just put a single command, it will be used for every hot corner "
 "assigned to 'custom-command'. If you instead use the pattern 'hotcorner-"
@@ -139,11 +138,12 @@ msgid ""
 "';;' is used as delimiter between command defintions."
 msgstr ""
 "Sadece bir komut girerseniz, bu 'custom-command'a atanmış tüm etkin-köşeler "
-"için kullanılır. Bunun yerine 'hotcorner-topleft:komut;;hotcorner-"
-"bottomright:komut' kalıbını kullanırsanız, her bir etkin-köşe için "
-"belirlediğiniz komutlar kullanılacaktır. Olası tanımlayıcılar 'hotcorner-"
-"[topleft; topright; bottomleft; bottomright] ardından ':' ve komuttur. ';;' "
-"komut tanımları arasında ayraç işlevi görür."
+"için kullanılır. Bunun yerine 'hotcorner-topleft:command;;hotcorner-"
+"bottomright:command' kalıbını kullanırsanız, her bir etkin-köşe için "
+"belirlediğiniz komutlar kullanılacaktır. Olası tanımlayıcılar "
+"'hotcorner-[topleft; topright; bottomleft; bottomright]' ardından ':' "
+"koyulur ve sonrasında komut gelir. ';;' komut tanımları arasında ayraç "
+"işlevi görür."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:57
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -165,23 +165,20 @@ msgid "Panel main menu action"
 msgstr "Panel ana menüsü eylemi"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:63
-#, fuzzy
 msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
-msgstr ""
-"Panel ana menüsünde bağlanmış tuşa basıldığında çalışacak komutu belirleyin"
+msgstr "panel-main-menu tuş kombinasyonu basıldığında çalışacak komutu ayarlar."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
 msgstr "Dinamik çalışma alanını etkinleştir"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:78
-#, fuzzy
 msgid ""
 "Use a dynamically increasing or decreasing number, as needed, of workspaces "
 "instead of a static, fixed number."
 msgstr ""
 "Durağan ve sabit sayıda çalışma alanı yerine ihtiyaca göre dinamik olarak "
-"artan ya da azalan sayıda çalışma alanı kullanın"
+"artan ya da azalan sayıda çalışma alanı kullanın."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid "Names that are recognized as dock windows for the window switcher"
