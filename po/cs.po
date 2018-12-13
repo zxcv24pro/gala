@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-07-10 00:03+0000\n"
-"Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
+"PO-Revision-Date: 2018-12-14 00:07+0000\n"
+"Last-Translator: Daniel Zvir <zvir.daniel@seznam.cz>\n"
 "Language-Team: Czech <https://weblate.elementary.io/projects/desktop/gala/cs/"
 ">\n"
 "Language: cs\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
-msgstr "Vypadá displej v pořádku?"
+msgstr "Vypadá displej dobře?"
 
 #: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
-msgstr "Zachovat toto nastavení"
+msgstr "Ponechat Tuto Konfiguraci"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "Obnovit předchozí nastavení"
+msgstr "Obnovit Předchozí Konfiguraci"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
@@ -106,9 +106,8 @@ msgid "Algorithm for window overview layout"
 msgstr "Algoritmus pro rozložení zobrazení oken"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
-#, fuzzy
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Zvolte algoritmus pro vystavení oken"
+msgstr "Zvolte který algoritmus chcete použít pro vystavení oken."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
@@ -123,16 +122,14 @@ msgid "Action for the bottom right corner"
 msgstr "Akce pro dolní pravý roh"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
-#, fuzzy
 msgid ""
 "The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
 msgstr ""
-"Příkaz, který bude spuštěn při doteku v rozích s nastavenou akcí "
-"\"uživatelský-příkaz\" nebo vícenásobné"
+"Příkaz, který bude spuštěn při doteku v rozích s nastavenou akcí \""
+"uživatelský-příkaz\" nebo vícenásobné"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
-#, fuzzy
 msgid ""
 "If you just put a single command, it will be used for every hot corner "
 "assigned to 'custom-command'. If you instead use the pattern 'hotcorner-"
@@ -167,31 +164,28 @@ msgid "Panel main menu action"
 msgstr "Akce panelu hlavní nabídky"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:63
-#, fuzzy
 msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
 msgstr ""
 "Nastaví příkaz, který se spustí při stisku klávesové zkratky pro panel-main-"
-"menu"
+"menu."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
 msgstr "Povolit dynamické pracovní plochy místo statických"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:78
-#, fuzzy
 msgid ""
 "Use a dynamically increasing or decreasing number, as needed, of workspaces "
 "instead of a static, fixed number."
 msgstr ""
-"Podle potřeby zvyšovat nebo snižovat počet ploch dynamicky, místo "
-"statického, pevného počtu ploch"
+"Použít dynamické zvyšování či snižování počtu ploch dle potřeby, místo "
+"statického, pevného počtu."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid "Names that are recognized as dock windows for the window switcher"
 msgstr "Názvy, které jsou přepínačem oken rozpoznávány jako doková okna"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:83
-#, fuzzy
 msgid ""
 "When launching the window-switcher, Gala iterates over this list and "
 "attempts to find a window matching the names. If it does, it will hide this "
@@ -255,11 +249,11 @@ msgstr "Přepnout na předchozí rozložení klávesnice"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:147
 msgid "The shortcut to enable picture-in-picture window"
-msgstr ""
+msgstr "Zkratka na zapnutí okna obraz-v-obraze"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
-msgstr ""
+msgstr "Zkratka pro zobrazení výběrové oblasti na výběr okna."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid "Attach modal dialogs"
@@ -298,14 +292,12 @@ msgstr ""
 "oddělovací značka."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:165
-#, fuzzy
 msgid "Dims parent windows when spawning modal dialogs"
-msgstr "Ztmavit rodičovské okno, které vyvolalo modální dialog"
+msgstr "Ztmavit rodičovské okno při vyvolávání modálních dialogů"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:170
-#, fuzzy
 msgid "The opacity of windows behind the window switcher."
-msgstr "Průhlednost oken umístěných na pozadí v alt-tab přepínači."
+msgstr "Průhlednost oken umístěných v pozadí přepínače aplikací."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Background-image used in the workspace-switcher"
