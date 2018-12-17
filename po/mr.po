@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gala 0.3.1\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-15 07:47+0000\n"
+"PO-Revision-Date: 2018-12-18 00:00+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://weblate.elementary.io/projects/desktop/gala/"
 "mr/>\n"
@@ -89,41 +89,41 @@ msgstr "इतर"
 
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
-msgstr ""
+msgstr "कालबाह्य अनुप्रयोगांवरील सूचनांसाठी फॉलबॅक डेस्कटॉप फाइल."
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
-msgstr ""
+msgstr "applications-other"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:22
 msgid "Action for the top left corner"
-msgstr ""
+msgstr "वर डाव्या कोपऱ्यासाठी क्रिया"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:27
 msgid "Algorithm for window overview layout"
-msgstr ""
+msgstr "विंडो विहंगावलोकन मांडणीसाठी अल्गोरिदम"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
 msgid "Choose the algorithm used for exposing the windows."
-msgstr ""
+msgstr "विंडोज उघडण्यासाठी वापरलेले अल्गोरिदम निवडा."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
-msgstr ""
+msgstr "वरच्या उजव्या कोपऱ्यासाठी क्रिया"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:37
 msgid "Action for the bottom left corner"
-msgstr ""
+msgstr "खालच्या डाव्या कोपऱ्यासाठी क्रिया"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:42
 msgid "Action for the bottom right corner"
-msgstr ""
+msgstr "खालच्या उजव्या कोपऱ्यासाठी क्रिया"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:47
 msgid ""
 "The command that will be executed for the hot corner action 'custom-command' "
 "or multiple"
-msgstr ""
+msgstr "हॉट कॉर्नर अॅक्शन 'सानुकूल-कमांड' किंवा एकाधिकसाठी अंमलात येणारी आज्ञा"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:48
 msgid ""
@@ -137,7 +137,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:57
 msgid "Enable edge tiling when dropping windows on screen edges"
-msgstr ""
+msgstr "स्क्रीन किनारांवर विंडो ड्रॉप करताना एज टाइलिंग सक्षम करा"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:58
 msgid ""
@@ -148,25 +148,27 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:62
 msgid "Panel main menu action"
-msgstr ""
+msgstr "पॅनेल मुख्य मेनू क्रिया"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:63
 msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
-msgstr ""
+msgstr "पटल-मेन-मेन्यू किबाइंडिंग दाबल्यावर चालवण्याकरीता आदेश सेट करते."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
-msgstr ""
+msgstr "स्थिर ऐवजी डायनॅमिक वर्कस्पेस सक्षम करा"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:78
 msgid ""
 "Use a dynamically increasing or decreasing number, as needed, of workspaces "
 "instead of a static, fixed number."
 msgstr ""
+"स्टॅटिक, निश्चित संख्या ऐवजी वर्कस्पेसेसच्या आवश्यकतेनुसार गतिशीलपणे वाढणारी "
+"किंवा कमी होणारी संख्या वापरा."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:82
 msgid "Names that are recognized as dock windows for the window switcher"
-msgstr ""
+msgstr "विंडो स्विचरसाठी डॉक विंडो म्हणून ओळखल्या जाणारी नावे"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:83
 msgid ""
@@ -177,35 +179,35 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:90
 msgid "Shortcut to move to first workspace"
-msgstr ""
+msgstr "प्रथम वर्कस्पेसवर जाण्यासाठी शॉर्टकट"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:95
 msgid "Shortcut to move to last workspace"
-msgstr ""
+msgstr "शेवटच्या वर्कस्पेसवर जाण्यासाठी शॉर्टकट"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:100
 msgid "Shortcut to move the current window to first workspace"
-msgstr ""
+msgstr "वर्तमान विंडोला प्रथम वर्कस्पेसवर हलविण्यासाठी शॉर्टकट"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:105
 msgid "Shortcut to move the current window to last workspace"
-msgstr ""
+msgstr "वर्तमान विंडोला शेवटच्या वर्कस्पेसवर हलविण्याकरिता शॉर्टकट"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:110
 msgid "Zoom in"
-msgstr ""
+msgstr "झूम इन"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:115
 msgid "Zoom out"
-msgstr ""
+msgstr "झूम आउट"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:119
 msgid "Shortcut to open the window overview"
-msgstr ""
+msgstr "विंडो विहंगावलोकन उघडण्यासाठी शॉर्टकट"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:124
 msgid "Shortcut to open the window overview for all windows"
-msgstr ""
+msgstr "सर्व विंडोसाठी विंडो विहंगावलोकन उघडण्यासाठी शॉर्टकट"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:129
 #: data/org.pantheon.desktop.gala.gschema.xml.in:133
@@ -373,4 +375,4 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:278
 msgid "Only show corner masks on primary monitor"
-msgstr ""
+msgstr "केवळ प्राथमिक मॉनिटरवर कॉर्नर मास्क दाखवा"
