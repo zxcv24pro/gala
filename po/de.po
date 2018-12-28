@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
 "PO-Revision-Date: 2018-12-28 13:20+0000\n"
-"Last-Translator: Jörg Arnold <j.ar@mailbox.org>\n"
+"Last-Translator: glitzaf <glitzaf@gmail.com>\n"
 "Language-Team: German <https://weblate.elementary.io/projects/desktop/gala/"
 "de/>\n"
 "Language: de\n"
@@ -107,9 +107,8 @@ msgid "Algorithm for window overview layout"
 msgstr "Verfahren für das Gestalten der Fensterübersicht"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
-#, fuzzy
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Verfahren wählen, nach dem die Fensterübersicht dargestellt wird"
+msgstr "Verfahren wählen zur Darstellung der Fensterübersicht."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
