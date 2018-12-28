@@ -108,7 +108,7 @@ msgstr "Verfahren für das Gestalten der Fensterübersicht"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "Verfahren wählen zur Darstellung der Fensterübersicht."
+msgstr "Verfahren zur Darstellung der Fensterübersicht wählen."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
