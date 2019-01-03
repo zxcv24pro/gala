@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-12-13 00:06+0000\n"
+"PO-Revision-Date: 2019-01-04 00:07+0000\n"
 "Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/desktop/gala/"
 "tr/>\n"
@@ -30,7 +30,7 @@ msgstr "Bu Yapılandırmayı Koru"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "Önceki Yapılandırmaya Geri Dön"
+msgstr "Önceki Yapılandırmayı Geri Yükle"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
@@ -187,7 +187,6 @@ msgstr ""
 "isimler"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:83
-#, fuzzy
 msgid ""
 "When launching the window-switcher, Gala iterates over this list and "
 "attempts to find a window matching the names. If it does, it will hide this "
@@ -250,11 +249,11 @@ msgstr "Önceki klavye düzenine dönüş"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:147
 msgid "The shortcut to enable picture-in-picture window"
-msgstr ""
+msgstr "Resim içinde resim penceresini etkinleştirme kısayolu"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
-msgstr ""
+msgstr "Pencere seçmek için seçim alanını gösteren kısayol."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid "Attach modal dialogs"
@@ -292,15 +291,12 @@ msgstr ""
 "eklemek için özel spacer etiketi kullanılabilir."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:165
-#, fuzzy
 msgid "Dims parent windows when spawning modal dialogs"
 msgstr "Kalıcı bir diyalog penceresi açan ana pencereyi soldur"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:170
-#, fuzzy
 msgid "The opacity of windows behind the window switcher."
-msgstr ""
-"alt-tab-değiştirici içindeki arka planda yer alan pencerelerin opaklıkları."
+msgstr "Pencere değiştirici arkasında yer alan pencerelerin opaklıkları."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Background-image used in the workspace-switcher"
