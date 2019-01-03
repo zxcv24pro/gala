@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
 "PO-Revision-Date: 2019-01-04 00:07+0000\n"
-"Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
+"Last-Translator: Emre Balasar <balasare@gmail.com>\n"
 "Language-Team: Turkish <https://weblate.elementary.io/projects/desktop/gala/"
 "tr/>\n"
 "Language: tr\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/WindowManager.vala:1839
 msgid "Does the display look OK?"
-msgstr "Ekranı sorunsuz görebiliyor musunuz?"
+msgstr "Ekran iyi görünüyor mu?"
 
 #: src/WindowManager.vala:1842
 msgid "Keep This Configuration"
