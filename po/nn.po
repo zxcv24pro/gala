@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2019-01-04 22:19+0000\n"
+"PO-Revision-Date: 2019-01-05 00:06+0000\n"
 "Last-Translator: Simon Dagfinrud <semonje@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://weblate.elementary.io/projects/"
 "desktop/gala/nn/>\n"
@@ -411,7 +411,7 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:278
 msgid "Only show corner masks on primary monitor"
-msgstr "Bruk berre hjørnemasker på primærskjermen"
+msgstr "Bruk hjørnemaskar kun på hovudskjermen"
 
 #~ msgid "Cancel"
 #~ msgstr "Avbryt"
