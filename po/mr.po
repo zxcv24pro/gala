@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gala 0.3.1\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-12-18 00:00+0000\n"
+"PO-Revision-Date: 2019-01-07 00:02+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://weblate.elementary.io/projects/desktop/gala/"
 "mr/>\n"
@@ -216,21 +216,21 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:137
 msgid "Cycle to next keyboard layout"
-msgstr ""
+msgstr "पुढील कीबोर्ड लेआउटवर सायकल"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:138
 #: data/org.pantheon.desktop.gala.gschema.xml.in:143
 #: data/org.pantheon.desktop.gala.gschema.xml.in:171
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr ""
+msgstr "प्रतिबंधितः ही की प्रतिबंधित आणि दुर्लक्षित केली गेली आहे."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:142
 msgid "Cycle to previous keyboard layout"
-msgstr ""
+msgstr "मागील कीबोर्ड लेआउट वर सायकल"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:147
 msgid "The shortcut to enable picture-in-picture window"
-msgstr ""
+msgstr "पिक्चर-इन-पिक्चर विंडो सक्षम करण्यासाठी शॉर्टकट"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
