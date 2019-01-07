@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gala 0.3.1\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2019-01-07 00:02+0000\n"
+"PO-Revision-Date: 2019-01-09 00:05+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://weblate.elementary.io/projects/desktop/gala/"
 "mr/>\n"
@@ -134,6 +134,12 @@ msgid ""
 "topright; bottomleft; bottomright]' followed by a ':' and then the command. "
 "';;' is used as delimiter between command defintions."
 msgstr ""
+"आपण केवळ एक कमांड ठेवल्यास, ती 'सानुकूल-कमांड' ला नियुक्त केलेल्या प्रत्येक "
+"हॉट कॉर्नर साठी वापरली जाईल. आपण त्याऐवजी 'hotcorner-topleft:command"
+";;hotcorner-bottomright:command' नमुना वापरल्यास विशिष्ट कमांड प्रत्येक हॉट "
+"कॉर्नर साठी वापरल्या जातील. संभाव्य अभिज्ञापकॅनमध्ये 'hotcorner-[topleft; "
+"topright; bottomleft; bottomright]' नंतर ':' आणि त्यानंतर कमांड असतात. ';;' "
+"कमांड परिभाषा दरम्यान डेलीमीटर म्हणून वापरली जाते."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:57
 msgid "Enable edge tiling when dropping windows on screen edges"
@@ -145,6 +151,9 @@ msgid ""
 "vertically and resizes them horizontally to cover half of the available "
 "area. Dropping windows on the top screen edge maximizes them completely."
 msgstr ""
+"सक्षम असल्यास, वर्टिकल स्क्रीन किनारीवरील विंडो ड्रॉप करणे त्यांना उर्ध्वरीत "
+"वाढवते आणि उपलब्ध अर्धा भाग समाविष्ट करण्यासाठी त्यांना क्षैतिजरित्या आकार "
+"देते. शीर्ष स्क्रीन किनार्यावरील विंडो ड्रॉपिंग त्यांना पूर्णपणे वाढवते."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:62
 msgid "Panel main menu action"
@@ -212,7 +221,7 @@ msgstr "सर्व विंडोसाठी विंडो विहंग
 #: data/org.pantheon.desktop.gala.gschema.xml.in:129
 #: data/org.pantheon.desktop.gala.gschema.xml.in:133
 msgid "Cycle to the next workspace to the right or to back to the first"
-msgstr ""
+msgstr "पुढील कार्यक्षेत्रावर उजवीकडे किंवा प्रथम परत जाण्यासाठी सायकल करा"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:137
 msgid "Cycle to next keyboard layout"
@@ -234,11 +243,11 @@ msgstr "पिक्चर-इन-पिक्चर विंडो सक्�
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
-msgstr ""
+msgstr "विंडो निवडण्यासाठी निवड क्षेत्र दर्शविण्यासाठी शॉर्टकट."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid "Attach modal dialogs"
-msgstr ""
+msgstr "मोडल संवाद संलग्न करा"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:156
 msgid ""
@@ -246,10 +255,12 @@ msgid ""
 "attached to the titlebar of the parent window and are moved together with "
 "the parent window."
 msgstr ""
+"स्वतंत्र शीर्षकपट्ट्या ठेवण्याऐवजी, मोडल संवाद मूळ विंडोच्या शीर्षकपट्टीशी "
+"संलग्न केले जातात आणि मूळ विंडोसह एकत्र हलविले जातात."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:160
 msgid "Arrangement of buttons on the titlebar"
-msgstr ""
+msgstr "शीर्षक पट्टीवरील बटनांची व्यवस्था"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:161
 msgid ""
