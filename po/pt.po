@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gala\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-22 00:02+0000\n"
-"Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
+"PO-Revision-Date: 2019-01-09 00:05+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://weblate.elementary.io/projects/desktop/"
 "gala/pt/>\n"
 "Language: pt\n"
@@ -46,19 +46,19 @@ msgstr "Redimensionar"
 
 #: daemon/MenuDaemon.vala:126
 msgid "Always on Top"
-msgstr "Sempre à frente"
+msgstr "Sempre no Topo"
 
 #: daemon/MenuDaemon.vala:132
 msgid "Always on Visible Workspace"
-msgstr "Sempre na área de trabalho visível"
+msgstr "Sempre na Área de trabalho Visível"
 
 #: daemon/MenuDaemon.vala:138
 msgid "Move to Workspace Left"
-msgstr "Mover para a área de trabalho à esquerda"
+msgstr "Mover para a Área de trabalho à Esquerda"
 
 #: daemon/MenuDaemon.vala:144
 msgid "Move to Workspace Right"
-msgstr "Mover para a área de trabalho à direita"
+msgstr "Mover para a Área de trabalho à Direita"
 
 #: daemon/MenuDaemon.vala:150
 msgid "Close"
@@ -83,7 +83,7 @@ msgstr "Ver todas as janelas e ambientes de trabalho"
 
 #: data/gala-multitaskingview.desktop.in:7
 msgid "multitasking-view"
-msgstr "vista multitarefa"
+msgstr "vista multi-tarefa"
 
 #: data/gala-other.desktop.in:4
 msgid "Other"
@@ -92,12 +92,12 @@ msgstr "Outros"
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
 msgstr ""
-"Arquivo de retorno da área de trabalho para notificações de aplicativos "
-"desatualizados."
+"Ficheiro de retorno do ambiente de trabalho para notificações de aplicações "
+"desatualizadas."
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
-msgstr "outros aplicativos"
+msgstr "outras-aplicações"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:22
 msgid "Action for the top left corner"
@@ -207,7 +207,7 @@ msgstr "Atalho para ir para a última área de trabalho"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:100
 msgid "Shortcut to move the current window to first workspace"
-msgstr "Atalho para mover a janela em foco para a primeira àrea de trabalho"
+msgstr "Atalho para mover a janela em foco para a primeira área de trabalho"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:105
 msgid "Shortcut to move the current window to last workspace"
@@ -239,21 +239,21 @@ msgstr ""
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:137
 msgid "Cycle to next keyboard layout"
-msgstr "Mudar para o esquema de teclado seguinte"
+msgstr "Mudar para a disposição de teclado seguinte"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:138
 #: data/org.pantheon.desktop.gala.gschema.xml.in:143
 #: data/org.pantheon.desktop.gala.gschema.xml.in:171
 msgid "DEPRECATED: This key is deprecated and ignored."
-msgstr "DEPRECIADO: esta chave está obsoleta e ignorada."
+msgstr "DESCONTINUADA: esta chave está obsoleta e ignorada."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:142
 msgid "Cycle to previous keyboard layout"
-msgstr "Mudar para o esquema de teclado anterior"
+msgstr "Mudar para a disposição de teclado anterior"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:147
 msgid "The shortcut to enable picture-in-picture window"
-msgstr "O atalho para ativar uma janela picture-in-picture"
+msgstr "O atalho para ativar uma janela imagem-em-imagem"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
@@ -405,14 +405,14 @@ msgstr "Raio dos cantos"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:273
 msgid "Disable corner mask on fullscreen"
-msgstr "Desativar mascarar cantos redondos em fullscreen"
+msgstr "Desativar mascarar cantos em ecrã cheio"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:274
 msgid ""
 "If enabled, when an application is fullscreen (fills the monitor), the "
 "corner masks will be disabled on that monitor."
 msgstr ""
-"Se ativado, quando um aplicativo está em tela cheia (preenche o monitor), os "
+"Se ativado, quando uma aplicação está em ecrã cheio (preenche o monitor), os "
 "atalhos de canto serão desativados nesse monitor."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:278
