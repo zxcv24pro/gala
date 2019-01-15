@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-11-28 14:18+0000\n"
+"PO-Revision-Date: 2019-01-16 00:03+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.elementary.io/projects/"
 "desktop/gala/zh_Hans/>\n"
@@ -91,7 +91,7 @@ msgstr "其他"
 
 #: data/gala-other.desktop.in:5
 msgid "Fallback desktop file for notifications from outdated applications."
-msgstr "过期应用通知的备用桌面文件"
+msgstr "过期应用通知的备用桌面文件。"
 
 #: data/gala-other.desktop.in:6
 msgid "applications-other"
@@ -107,7 +107,7 @@ msgstr "窗口布局概览方式"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:28
 msgid "Choose the algorithm used for exposing the windows."
-msgstr "选择窗口排列方式"
+msgstr "选择窗口排列方式。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:32
 msgid "Action for the top right corner"
@@ -159,7 +159,7 @@ msgstr "面板主菜单行为"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:63
 msgid "Sets the command to run when the panel-main-menu keybinding is pressed."
-msgstr "设定按下 panel-main-menu 组合键时运行的命令"
+msgstr "设定按下 panel-main-menu 组合键时运行的命令。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:77
 msgid "Enable dynamic workspace instead of static ones"
@@ -239,7 +239,7 @@ msgstr "启用窗口“画中画”模式的快捷键"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:148
 msgid "The shortcut to show the selection area to choose a window."
-msgstr "显示选中区域来选择窗口的快捷键"
+msgstr "显示选中区域来选择窗口的快捷键。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:155
 msgid "Attach modal dialogs"
@@ -279,7 +279,7 @@ msgstr "当模式窗口弹出时淡化上级窗口"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:170
 msgid "The opacity of windows behind the window switcher."
-msgstr "Alt + Tab 切换时窗口的透明度"
+msgstr "Alt + Tab 切换时窗口的透明度。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Background-image used in the workspace-switcher"
@@ -325,7 +325,7 @@ msgid ""
 "top fade (which is usually just -1), the third and fourth the x- and y-"
 "offset and the last the opacity. So [blur-radius, top-fade, x-offset, y-"
 "offset, opacity]."
-msgstr "四项数值分别为阴影的：模糊半径、顶部淡出值、横向偏移、纵向偏移以及不透明度"
+msgstr "四项数值分别为阴影的：模糊半径、顶部淡出值、横向偏移、纵向偏移以及不透明度。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:218
 msgid "Defines the shadow of a normal unfocused window"
@@ -336,7 +336,7 @@ msgstr "定义普通非焦点窗口的阴影"
 #: data/org.pantheon.desktop.gala.gschema.xml.in:229
 #: data/org.pantheon.desktop.gala.gschema.xml.in:234
 msgid "See normal-focused."
-msgstr "参考“普通焦点”"
+msgstr "参考“普通焦点”。"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:223
 msgid "Defines the shadow of a menu"
