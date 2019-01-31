@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2018-12-09 00:01+0000\n"
+"PO-Revision-Date: 2019-02-01 00:10+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/desktop/gala/"
 "da/>\n"
@@ -30,7 +30,7 @@ msgstr "Behold Denne Konfiguration"
 
 #: src/WindowManager.vala:1843
 msgid "Restore Previous Configuration"
-msgstr "Gendan forrige konfiguration"
+msgstr "Gendan Forrige Konfiguration"
 
 #: daemon/MenuDaemon.vala:102
 msgid "Minimize"
