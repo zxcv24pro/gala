@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: https://github.com/elementary/gala/issues\n"
 "POT-Creation-Date: 2018-11-14 17:57+0100\n"
-"PO-Revision-Date: 2019-02-01 00:10+0000\n"
+"PO-Revision-Date: 2019-02-07 00:06+0000\n"
 "Last-Translator: Kaj Printz Madsen <kajprintz@gmail.com>\n"
 "Language-Team: Danish <https://weblate.elementary.io/projects/desktop/gala/"
 "da/>\n"
@@ -304,9 +304,8 @@ msgid "Dims parent windows when spawning modal dialogs"
 msgstr "Nedtoner forældervinduer som skaber en modaltilknyttet dialog"
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:170
-#, fuzzy
 msgid "The opacity of windows behind the window switcher."
-msgstr "Opaciteten af vinduerne i baggrunden i alt-tab-skifteren."
+msgstr "Opaciteten af vinduerne i baggrunden af vindueskifteren."
 
 #: data/org.pantheon.desktop.gala.gschema.xml.in:175
 msgid "Background-image used in the workspace-switcher"
