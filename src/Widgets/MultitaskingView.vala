@@ -29,7 +29,7 @@ namespace Gala
 	{
 		public const int ANIMATION_DURATION = 250;
 		public const AnimationMode ANIMATION_MODE = AnimationMode.EASE_OUT_QUAD;
-		const int SMOOTH_SCROLL_DELAY = 500;
+		const int SMOOTH_SCROLL_DELAY = 250;
 
 		public WindowManager wm { get; construct; }
 
